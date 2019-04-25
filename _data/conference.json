@@ -1,0 +1,103 @@
+{
+    "name": "Midwest JS",
+    "tagline": "August 7-9  , 2019 in Downtown Minneapolis",
+    "description": "Midwest JS is a premier technology conference focused on the JavaScript ecosystem.",
+    "features": {
+        "countdown": true,
+        "cfp": true,
+        "schedule": false,
+        "registration": true,
+        "speakers": false,
+        "sponsors": false,
+        "eventDetails": true,
+        "tickets": false,
+        "mailingList": false
+    },
+    "links": {
+        "cfp": "https://docs.google.com/forms/d/e/1FAIpQLSfEsRDcAwkmxSgoKJfbz9D0HmykBiSvCWTQjd1s0jtAxr-Hpw/viewform",
+        "twitter": "https://twitter.com/midwest_js",
+        "github": "https://github.com/midwestjs",
+        "slack": "https://midwestjs.slack.com",
+        "youtube": "https://www.youtube.com/channel/UCg09l6pJcp2DdCcsSrJmQng"
+    },
+    "gaId": "UA-138252101-1",
+    "startDate": "2019-08-07T09:00:00",
+    "endDate": "2019-08-09T017:00:00",
+    "event": {
+        "venue": {
+            "line1": "University of St Thomas - Schulze Hall",
+            "line2": "46 11th Street South",
+            "city": "Minneapolis",
+            "state": "MN",
+            "zip": "55403",
+            "website": "https://business.stthomas.edu/opus-advantage/visit-opus/index.html"
+        },
+        "parking": {
+            "line1": "11th & Harmon Ramp",
+            "line2": "25 South 11th Street",
+            "city": "Minneapolis",
+            "state": "MN",
+            "zip": "55403",
+            "website": "https://www.mplsparking.com/off-street"
+        },
+        "hotel": {
+            "line1": "Doubletree Suites",
+            "line2": "1101 LaSalle Avenue",
+            "city": "Minneapolis",
+            "state": "MN",
+            "zip": "55403",
+            "website": "https://secure3.hilton.com/en_US/dt/reservation/book.htm?execution=e2s1"
+        }
+    },
+    "contact": {
+        "name": "Mr. Awesome",
+        "email": "support@awesomeconference.io"
+    },
+    "sponsors": [
+        {
+            "name": "Object Partners",
+            "logo": "assets/object-partners.svg"
+        },
+        {
+            "name": "SDG",
+            "logo": "assets/sdg.svg"
+        },
+        {
+            "name": "Target",
+            "logo": "assets/target.svg"
+        }
+    ],
+    "schedule": [
+        {
+            "label": "Monday",
+            "blocks": [
+                {
+                    "time": "8:00AM",
+                    "label": "Registration and Breakfast",
+                    "description": "Registration desk opens at 8:00 in the atrium of Schultz hall. A simple breakfast is provided consisting of pastries, coffee, and orange juice."
+                },
+                {
+                    "time": "8:45AM",
+                    "label": "Welcome to Awesome Conference",
+                    "description": "Opening announcements and logistics for Awesome Conference."
+                }
+            ]
+        },
+        {
+            "label": "Tuesday",
+            "blocks": []
+        },
+        {
+            "label": "Wednesday",
+            "blocks": []
+        }
+    ],
+    "speakers": [
+        {
+            "name": "Joe User",
+            "twitter": "#",
+            "website": "",
+            "photo": ""
+        }
+    ]
+}

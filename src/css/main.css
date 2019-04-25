@@ -1,0 +1,15 @@
+/* masthead */
+.masthead {
+	background-image: url(/assets/cityscape.jpg);
+	background-size: cover;
+	height: 500px;
+	padding: 2em;
+}
+
+.masthead-tagline {
+	font-size: 2em;
+}
+
+.masthead-description {
+	font-size: 2em;
+}

@@ -1,0 +1,22 @@
+.masthead {
+	background-image: url(/assets/cityscape.jpg);
+	background-size: cover;
+	height: 500px;
+	padding: 2em;
+}
+
+.masthead-tagline {
+	font-size: 2em;
+}
+
+.masthead-description {
+	font-size: 2em;
+}
+
+.masthead-button {
+	background-color: yellow;
+	border: 2px solid #fff;
+	border-radius: .5em;
+	color: #fff;
+	font-size: 2em;
+}

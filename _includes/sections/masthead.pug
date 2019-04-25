@@ -1,0 +1,8 @@
+.section.masthead
+	.flex.flex-wrap.justify-center
+		.w-100.w-40-l.masthead-logo-container
+			img(src='assets/midwestjs-logo.svg' width="300px")
+		.w-100.w-40-l.masthead-description-container
+			h2.masthead-tagline #{conference.tagline}
+			p.masthead-description #{conference.description}
+			a(href=conference.links.cfp target='new').masthead-button Submit a talk

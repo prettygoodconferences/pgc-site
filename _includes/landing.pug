@@ -1,0 +1,21 @@
+doctype html
+html.h-100
+head
+	meta(charset='UTF-8')
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	meta(http-equiv='X-UA-Compatible', content='ie=edge')
+	link(rel='stylesheet' href='https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css')
+	link(rel='stylesheet', href='/assets/css/common.css')
+	script(src='https://unpkg.com/feather-icons')
+	link(href='https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed' rel='stylesheet')
+	title #{conference.name} - #{title}
+body.h-100
+.h-100
+	include _includes/header.pug
+	.div
+		|	!{content}
+	include _includes/footer.pug
+
+script.
+	feather.replace();
+

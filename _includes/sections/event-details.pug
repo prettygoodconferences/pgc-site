@@ -1,0 +1,16 @@
+include ../mixins/address.pug
+
+.section.event-details
+	.flex.flex-wrap.justify-center
+		.w-80.w-40-l.pa2.tl
+			.event-details-item
+				h2 Venue
+				+address(conference.event.venue)
+			.event-details-item
+				h2 Parking
+				+address(conference.event.parking)
+			.event-details-item
+				h2 Hotel
+				+address(conference.event.hotel)
+		.w-80.w-40-l
+			<div id="gmapcanvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45172.08477784478!2d-93.2686586471777!3d44.958804835133265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b332944d7d30f9%3A0x169d5a902717f38e!2sSchulze+Hall!5e0!3m2!1sen!2sus!4v1555034186175!5m2!1sen!2sus"></iframe></div>

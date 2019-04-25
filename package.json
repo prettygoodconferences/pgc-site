@@ -1,0 +1,14 @@
+{
+  "name": "ppg-site-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "xo": "^0.24.0"
+  }
+}
