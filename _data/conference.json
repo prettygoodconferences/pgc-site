@@ -4,13 +4,14 @@
     "description": "Midwest JS is a premier technology conference focused on the JavaScript ecosystem.",
     "features": {
         "countdown": true,
-        "cfp": true,
+        "cfp": false,
         "schedule": false,
         "registration": true,
         "speakers": false,
         "sponsors": false,
         "eventDetails": true,
         "tickets": false,
+        "ticketsSoon": true,
         "mailingList": false
     },
     "links": {

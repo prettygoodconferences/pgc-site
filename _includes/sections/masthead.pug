@@ -5,4 +5,5 @@
 		.w-100.w-40-l.masthead-description-container
 			h2.masthead-tagline #{conference.tagline}
 			p.masthead-description #{conference.description}
-			a(href=conference.links.cfp target='new').masthead-button Submit a talk
+			if conference.features.cfp
+				a(href=conference.links.cfp target='new').masthead-button Submit a talk
