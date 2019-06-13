@@ -1,0 +1,12 @@
+<div class="section masthead">
+	<div class="tc w-40-ns center">
+		<img src="assets/midwestjs-logo.svg" width="350px" class="mb4"/>
+		<h2 class="masthead-tagline white">{{ conference.tagline }}</h2>
+		<p class="masthead-description tl">{{ conference.description }}</p>
+		{% if conference.features.cfp %}
+			<a href="{{ conference.links.cfp }}" target="_new" class="masthead-button">Submit a talk</a>
+		{% elif conference.features.tickets %}
+			<a href="{{ conference.tickets.url }}" target="_new" class="masthead-button">Get your tickets now!</a>
+		{% endif %}
+	</div>
+</div>
