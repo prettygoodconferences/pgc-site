@@ -1,0 +1,12 @@
+<div class="topBar">
+	<p class="fl"><a href="/">{{ conference.name }}</a></p>
+	<ul class="list pa0 mv2 mr2">
+		{% if conference.features.schedule %}
+			<li class="dib ph2"><a href="/schedule" class="no-underline">Event Schedule</a></li>
+		{% endif %}
+		{% if conference.features.tickets %}
+			<li class="dib ph2"><a href="{{ conference.tickets.url }}" target="_new" class="no-underline">Tickets</a></li>
+		{% endif %}
+
+		<li class="dib ph2"><a href="/code-of-conduct" class="no-underline">Code of Conduct</a></li>
+</div>

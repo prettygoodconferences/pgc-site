@@ -1,0 +1,13 @@
+{% if conference.features.sponsors %}
+<div class="section sponsors">
+	<h2>{{ conference.name }} is proud to be sponsored by<h2>
+
+	{% for sponsor in conference.sponsors %}
+		<h2>{{ sponsor.name }}</h2>
+		<img src="{{ sponsor.logo }}"/>
+	{% endfor %}
+	<div>
+		<a href="#">Become a sponsor!</a>
+	</div>
+</div>
+{% endif %}

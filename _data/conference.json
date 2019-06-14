@@ -1,17 +1,16 @@
 {
     "name": "Midwest JS",
     "tagline": "August 7-9  , 2019 in Downtown Minneapolis",
-    "description": "Midwest JS is a premier technology conference focused on the JavaScript ecosystem.",
+    "description": "Midwest JS is a 3-day premier technology conference focused on the JavaScript ecosystem.",
     "features": {
         "countdown": true,
         "cfp": false,
         "schedule": false,
-        "registration": true,
-        "speakers": false,
+        "speakers": true,
         "sponsors": false,
         "eventDetails": true,
-        "tickets": false,
-        "ticketsSoon": true,
+        "tickets": true,
+        "ticketsSoon": false,
         "mailingList": false
     },
     "links": {
@@ -93,12 +92,7 @@
             "blocks": []
         }
     ],
-    "speakers": [
-        {
-            "name": "Joe User",
-            "twitter": "#",
-            "website": "",
-            "photo": ""
-        }
-    ]
+    "tickets": {
+        "url": "https://ti.to/midwestjs/midwest-js-2019"
+    }
 }

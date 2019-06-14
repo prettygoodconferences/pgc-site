@@ -1,0 +1,8 @@
+{% macro field(address) %}
+	<address>
+		{{ address.line1 }}<br/>
+		{{ address.line2 }}<br/>
+		{{ address.city }}, {{ address.state }} {{ address.zip }}<br/>
+		<a href="{{ address.website }}" target="new">More Info</a>
+	</address>
+{% endmacro %}

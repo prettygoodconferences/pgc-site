@@ -1,6 +1,8 @@
 /* ----------- Elements ----------- */
 body {
 	font-family: 'Roboto Condensed', sans-serif;
+	background: url(/assets/gplaypattern.png);
+	background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5 {
@@ -52,6 +54,26 @@ p {
 .prismBg {
 	background: url(/assets/prism.png);
 	color: #fff;
+}
+
+.geometryBg {
+	background: url(/assets/geometry.png);
+	color: #fff;
+}
+
+.geometry2xBg {
+	background: url(/assets/geometry2x.png);
+	color: #fff;
+}
+
+.shapesBg {
+	background: url(/assets/memphis-colorful.png);
+	color: #fff;
+}
+
+.gplayBg {
+	background: url(/assets/gplaypattern.png);
+	color: rgb(24, 24, 24);
 }
 
 /* event details */
@@ -169,7 +191,7 @@ p {
 	color: #fff;
 	text-align: center;
 	font-size: 1.5em;
-	padding: .5em;
+	padding: .5em .5em;
 }
 
 .notificationBar p {
@@ -188,6 +210,10 @@ p {
 	border: 2px solid #fff;
 	color: #fff;
 	padding: .25em 1.5em;
+}
+
+.separatorBar {
+	height: 1.5em;
 }
 
 /* ----------- Components ----------- */
@@ -219,4 +245,14 @@ p {
 
 .countdown-element-label {
 	text-transform: uppercase;
+}
+
+.speaker-image {
+  clip-path: circle(85px at center);
+}
+
+@media screen and (min-width: 60em) {
+	.speaker-image {
+		clip-path: circle(140px at center);
+	}
 }

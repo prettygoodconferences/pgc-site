@@ -1,0 +1,22 @@
+{% if conference.features.speakers %}
+<div class="section">
+	<h2 class="tc">Speakers</h2>
+	{% if speakers.length > 0 %}
+	<div class="flex flex-wrap pa4">
+		{% for speaker in speakers %}
+		<div class="w-50 w-third-ns pa2 tc">
+			<img src="{{ speaker.photo }}" class="speaker-image"/>
+			<a href="/speakers/{{ speaker.name | slug }}">
+				<h1 class="speakerName black">{{ speaker.name }}</h1>
+			</a>
+			{% for talk in speaker.talks %}
+				<h2 class="black fw1 ttn speaker-talk-title">{{ talk.title }}</h2>
+			{% endfor %}
+		</div>
+		{% endfor %}
+	</div>
+	{% else %}
+	<p class="tc">Our speakers list will be published shortly. Check back soon!</p>
+	{% endif %}
+</div>
+{% endif %}
