@@ -7,37 +7,34 @@ pagination:
 permalink: "speakers/{{pagination.items[0].name | slug}}/index.html"
 ---
 
-<div class="speaker section shapesBg">
-	{% for speaker in speakers %}
-		<img src="{{ speaker.photo }}"/>
-		<h1 class="speakerName">{{ speaker.name }}<h1>
-		<div class="speaker-details">
+{% import 'macros/avatar.njk' as avatar %}
+
+<div class="section speaker">
+	{% for speaker in pagination.items %}
+	<div class="cf ph2-ns">
+		<div class="fl w-25 pa2">
+			{{ avatar.format(speaker, 250) }}
+			<h2 class="speakerName mt4">{{ speaker.name }}</h2>
+
+			{% if speaker.github %}
+			<a href="https://github.com/{{ speaker.github }}" class="pa2"><i data-feather="github"></i></a>
+			{% endif %}
+			{% if speaker.twitter %}
+			<a href="https://twitter.com/{{ speaker.twitter }}" class="pa2"><i data-feather="twitter"></i></a>
+			{% endif %}
+		</div>
+		<div class="speaker-details fl w-75 pa2">
+			{% for talk in speaker.talks %}
+			<h2 class="speaker-talk-title">{{ talk.talkTitle }}</h2>
+			<p class="speaker-talk-description">{{ talk.talkAbstract }}</p>
+			{% endfor %}
+
+			{% if speaker.bio %}
+			<hr />
+			<h2>About</h2>
 			<div class="speaker-bio">{{ speaker.bio }}</div>
-			<div class="speaker-links"
-				{% if speaker.github %}
-				<div class="speakerLink">
-					<a href="https://github.com/{{ speaker.github }}" class="pa2">
-						<i data-feather="github"></i> {{ speaker.github }}
-					</a>
-				</div>
-				{% endif %}
-				{% if speaker.twitter %}
-				<div class="speakerLink">
-					<a href="https://twitter.com/{{ speaker.twitter }}" class="pa2">
-						<i data-feather="twitter"></i> @{{speaker.twitter}}
-					</a>
-				</div>
-				{% endif %}
-				{% if speaker.website %}
-				<div class="speakerLink">
-					<a href="{{ speaker.website }}" class="pa2">
-						<i data-feather="home"></i>
-					</a>
-				</div>
-				{% endif %}
-		{% for talk in speaker.talks %}
-			<h2 class="speaker-talk-title">{{ talk.title }}</h2>
-			<p class="speaker-talk-description">{{ talk.description }}</p>
-		{% endfor %}
+			{% endif %}
+		</div>
+		</div>
 	{% endfor %}
 </div>
