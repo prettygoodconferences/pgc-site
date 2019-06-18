@@ -68,7 +68,7 @@ p {
 
 .shapesBg {
 	background: url(/assets/memphis-colorful.png);
-	color: #fff;
+	color: #000;
 }
 
 .gplayBg {
@@ -153,7 +153,7 @@ p {
 	color: rgb(24, 24, 24);
 }
 
-.footer a {
+a {
 	color: rgb(24, 24, 24);
 	text-transform: uppercase;
 	font-weight: bold;
@@ -248,11 +248,5 @@ p {
 }
 
 .speaker-image {
-  clip-path: circle(85px at center);
-}
-
-@media screen and (min-width: 60em) {
-	.speaker-image {
-		clip-path: circle(140px at center);
-	}
+  clip-path: circle(50% at center);
 }

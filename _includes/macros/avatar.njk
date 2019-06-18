@@ -1,0 +1,15 @@
+{% macro format(speaker, size) %}
+    {% if speaker.gravatar %}
+        {{ gravatar(speaker.gravatar, size) }}
+    {% else %}
+        {{ photo(url, size) }}
+    {% endif %}
+{% endmacro %}
+
+{% macro gravatar(url, size) %}
+    <img src="{{ url }}?s={{ size }}" class="speaker-image"/>
+{% endmacro %}
+
+{% macro photo(url) %}
+    <img src="{{ url }}?s={{ size }}" class="speaker-image"/>
+{% endmacro %}

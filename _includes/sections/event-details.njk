@@ -1,14 +1,4 @@
-{# {% include ../macros/address.njk %} #}
-
-{% macro address(address) %}
-<address>
-	{{ address.line1 }}<br/>
-	{{ address.line2 }}<br/>
-	{{ address.city }}, {{ address.state }} {{ address.zip }}<br/>
-	<a href="{{ address.website }}" target="new">More Info</a>
-</address>
-{% endmacro %}
-
+{% import '../macros/address.njk' as address %}
 
 {% if conference.features.eventDetails %}
 <div class="section event-details">
@@ -16,15 +6,15 @@
 		<div class="w-80 w-40-l pa2 tl">
 			<div class="event-details-item">
 				<h2>Venue</h2>
-				{{ address(conference.event.venue) }}
+				{{ address.format(conference.event.venue) }}
 			</div>
 			<div class="event-details-item">
 				<h2>Parking</h2>
-				{{ address(conference.event.parking) }}
+				{{ address.format(conference.event.parking) }}
 			</div>
 			<div class="event-details-item">
 				<h2>Hotel</h2>
-				{{ address(conference.event.hotel) }}
+				{{ address.format(conference.event.hotel) }}
 			</div>
 		</div>
 		<div class="w-80 w-40-l">
