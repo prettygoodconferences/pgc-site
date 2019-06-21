@@ -2,7 +2,7 @@
     {% if speaker.gravatar %}
         {{ gravatar(speaker.gravatar, size) }}
     {% else %}
-        {{ photo(url, size) }}
+        {{ photo(speaker.photo) }}
     {% endif %}
 {% endmacro %}
 
@@ -11,5 +11,5 @@
 {% endmacro %}
 
 {% macro photo(url) %}
-    <img src="{{ url }}?s={{ size }}" class="speaker-image"/>
+    <img src="{{ url }}" class="speaker-image"/>
 {% endmacro %}
