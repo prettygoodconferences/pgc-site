@@ -6,7 +6,7 @@
 				"talkAbstract": "Vue is a lightweight, fast and awesome library for building user interfaces. Its learning curve is gentle and its API is not complex to understand. OAuth and OpenID Connect are standards-based protocols for identity and access management in applications. In this presentation, we will take an existing Vue application and implement authentication with OIDC, discover several idiomatic ways to integrate authentication, user profile consumption and conditional formatting with Vue as well as consuming a secure backend with OAuth."
 			}
 		],
-		"name": "ç",
+		"name": "Bobby Anderson",
 		"twitter": "NotMyself",
 		"github": "NotMyself",
 		"youtube": "https://www.youtube.com/channel/UCCvFh9KbO_K1G-KmDs9c94g?view_as=subscriber",
@@ -37,7 +37,8 @@
 		"twitter": "dstanich",
 		"github": "dstanich",
 		"bio": "David Stanich is a frontend developer at IBM in Rochester, Minnesota. He has been professionally developing web applications for the last 12+ years and is currently working on the UI for Watson Health products. His experience includes a variety of UI frameworks, backend technologies, and organizing frontend developer meetups within IBM Rochester.",
-		"gravatar": "https://www.gravatar.com/avatar/3e9bf16ef21b22f8f76dfe72d1f2a8d7"
+		"gravatar": "",
+		"photo": "/assets/speakers/davidstanich.jpg"
 	},
 	{
 		"talks": [
@@ -116,7 +117,8 @@
 		"github": "digitaldrummerj",
 		"youtube": "https://www.youtube.com/channel/UCDMvOL1XSKclxwplUT0fzLA",
 		"bio": "Founder of Let Your Nerd Be Heard, Microsoft MVP, Angular lover, Speaking Coach & Speaker specializing in making the complex simple and easy to understand",
-		"gravatar": "https://www.gravatar.com/avatar/c475e548e6235c9075ec1ef0ce2d1671"
+		"gravatar": "",
+		"photo": "/assets/speakers/justinjames.jpg"
 	},
 	{
 		"talks": [
@@ -186,20 +188,8 @@
 		],
 		"name": "Ado Kukic",
 		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/16dd64782e15a61186bb245397869067"
-	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Building a Robust and Flexible Component Library For Any Project",
-				"talkAbstract": "You have a choice when starting a project. Use ready-made components like Material UI — or — build everything from scratch. What do you choose?\n\nWell let’s see… You don’t have the time or skills to build from scratch — and you don’t want to take on tech debt by marrying someone else’s design system. Aww shuuucks — looks like you’re out of choices!\n\nBut wait, maybe, just maybe, there’s a third option. A way to get the speed of something ready-built without the limitations of using a third-party… \n\nIn this talk, you’ll learn the answer to that and many practical tips you can apply to any project."
-			}
-		],
-		"name": "Brandon Bayer",
-		"twitter": "flybayer",
-		"github": "flybayer",
-		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/881b423afb348a4d1685b451b7b884b3"
+		"gravatar": "",
+		"photo": "/assets/speakers/adokukic.jpg"
 	},
 	{
 		"talks": [
@@ -223,20 +213,8 @@
 		"name": "Zac Delventhal",
 		"github": "delventhalz",
 		"bio": "Engineer, actor, activist, fight choreographer. Loves astrophysics, Node.js, great action scenes, and exhausting political discussions. Terrible at twitter.",
-		"gravatar": "https://www.gravatar.com/avatar/c769e99b3533657b78d7216d19468f28"
-	},
-	{
-		"talks": [
-			{
-				"talkTitle": "TypeScript: Beyond the Basics",
-				"talkAbstract": "TypeScript enables web developers to improve the clarity and reliability of their code. It also enables more powerful tools for writing code. This led to its rapid rise in popularity. But what can it do for you beyond just adding types to your variables and parameters? In this talk, we look at some of the more advanced features in the language that can help you deliver valuable solutions in less time.\n\nIn this session, we will look at features such as:\n* union types\n* discriminated unions\n* intersection types\n* mixins\n* generics\n\nWe will also look at some of the new features in TypeScript 3.3 and 3.4. \n\n"
-			}
-		],
-		"name": "Eric Potter",
-		"twitter": "pottereric",
-		"github": "pottereric",
-		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/eca8c218581c34e426f56afa570de637"
+		"gravatar": "",
+		"photo": "/assets/speakers/zacdelventhal.jpg"
 	},
 	{
 		"talks": [
@@ -318,13 +296,18 @@
 		"name": "Josh Greenwell",
 		"github": "joshgreenwell",
 		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/8cfdd1c24b8460754fa3a441a8358cd7"
+		"gravatar": "",
+		"photo": "/assets/speakers/joshgreenwell.jpg"
 	},
 	{
 		"talks": [
 			{
 				"talkTitle": "IoT Hacking for Web Devs",
 				"talkAbstract": "For those of us used to solving problems with software, it can be difficult to branch out to solving problems with technology in the physical world.\n\nHowever, internet connected hardware projects can open up what we build and how people interact with technology in ways that's worth the struggle. In this session, Kristina will go from soldering an LED, connecting it to the internet, and creating a simple web app to monitor sensor data. She'll provide an overview of the different options available and give some pointers for people getting started."
+			},
+			{
+				"talkTitle": "Tracking Errors and Fixing JavaScript at Smartthings with TrackJS",
+				"talkAbstract": "Coming Soon. Kristina is going to do this with Todd"
 			}
 		],
 		"name": "Kristina Durivage",
@@ -340,9 +323,22 @@
 				"talkAbstract": "While you sit admiring your perfect code coverage score, your users are struggling through the bugs in your software. The hours you spend writing and updating unit tests aren’t reflected in the quality of your application. What gives?\n\nIn this talk, we’ll move beyond code coverage, discussing tools and techniques to improve test quality. You’ll learn to write tests the way users interact with your software, thereby maximizing test impact on the quality of your application."
 			}
 		],
-		"name": "Mike Eastes & Caitlin Collins",
-		"bio": "Caitlin is a frontend software engineer at Code42, where she serves at a member of the Accessibility Task Force. In this role, she provides subject matter expertise on accessibility to other web developers and the business as a whole.\n\nMike has 8 years of experience developing software and web applications. His experience spans robust back end server code to polished, user-friendly interfaces. Currently at Code42, he is on the UI development team and is deeply involved in architecting a user interface that is functional and consistent across all of Code42's applications. Mike is a huge React fanboy and is passionate about writing lean, functional, and testable code.",
-		"gravatar": "https://www.gravatar.com/avatar/29ba8d898d19e1fef05eddca91478bb7"
+		"name": "Mike Eastes",
+		"bio": "Mike has 8 years of experience developing software and web applications. His experience spans robust back end server code to polished, user-friendly interfaces. Currently at Code42, he is on the UI development team and is deeply involved in architecting a user interface that is functional and consistent across all of Code42's applications. Mike is a huge React fanboy and is passionate about writing lean, functional, and testable code.",
+		"gravatar": "",
+		"photo": "/assets/speakers/mikeeastes.jpg"
+	},
+	{
+		"talks": [
+			{
+				"talkTitle": "Beyond Code Coverage: User-Centered UI Testing",
+				"talkAbstract": "While you sit admiring your perfect code coverage score, your users are struggling through the bugs in your software. The hours you spend writing and updating unit tests aren’t reflected in the quality of your application. What gives?\n\nIn this talk, we’ll move beyond code coverage, discussing tools and techniques to improve test quality. You’ll learn to write tests the way users interact with your software, thereby maximizing test impact on the quality of your application."
+			}
+		],
+		"name": "Caitlin Collins",
+		"bio": "Caitlin is a frontend software engineer at Code42, where she serves at a member of the Accessibility Task Force. In this role, she provides subject matter expertise on accessibility to other web developers and the business as a whole.",
+		"gravatar": "",
+		"photo": "/assets/speakers/caitlincollins.jpg"
 	},
 	{
 		"talks": [
@@ -355,7 +351,8 @@
 		"twitter": "zrealmikejordan",
 		"github": "zRealMikeJordan",
 		"bio": "Innovating at @medtronic, organizer at @angularMN, founder at http://michaeljordanmedia.com",
-		"gravatar": "https://www.gravatar.com/avatar/126d14cf06b4efdc483daa6dbcd0f3a8"
+		"gravatar": "",
+		"photo": "/assets/speakers/michaeljordan.jpg"
 	},
 	{
 		"talks": [
@@ -381,7 +378,8 @@
 		"twitter": "tengbretson",
 		"github": "tengbretson",
 		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/b2c5c735cdeb2b20ce30097b22d19708"
+		"gravatar": "",
+		"photo": "/assets/speakers/tannerengbretson.jpg"
 	},
 	{
 		"talks": [
@@ -390,24 +388,11 @@
 				"talkAbstract": "Coming Soon. Todd is going to do this with Kristina"
 			}
 		],
-		"name": "Todd Gardner and Kristina Durivage",
+		"name": "Todd Gardner",
 		"twitter": "toddhgardner",
 		"github": "toddhgardner",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/2c872fec31c4eb3fcf8229bef0cce42d"
-	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Bringing Domain Driven Design and Functional Reactive Programming in Typescript",
-				"talkAbstract": "Functional Programming, Monads, Immutability, Type Level Safety and all this good stuff are features easy to find in some programming languages (such as Scala, Elm, PureScript) but they are often marked as “not a thing” in Javascript get ignored.\n\nLet’s demystify this and learn by refactoring an application on the stage how Typescript’s type system is flexible enough to employ different typical pattern that you would easily find in other programming languages, analysing their benefits and limitations."
-			}
-		],
-		"name": "Vincenzo Chianese",
-		"twitter": "D3DVincent",
-		"github": "XVincentX",
-		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/4e6423770e850520261e06ea30d5afa2"
 	},
 	{
 		"talks": [
@@ -420,7 +405,8 @@
 		"twitter": "ysmithnd",
 		"github": "moc.buhtig",
 		"bio": "Yolonda Smith is a Lead Infosec Analyst with Target Corporation’s Business Information Security Office (BISO), aligned with the Digital portfolio. In this role, she provides expert security consultancy to developers, business leaders and key stakeholders to ensure that Target’s web and mobile applications are designed, developed and deployed with minimal risk to Target or its guests.",
-		"gravatar": "https://www.gravatar.com/avatar/f9d3545dd612c6e8c037202e285a21cd"
+		"gravatar": "",
+		"photo": "/assets/speakers/yolondasmith.jpg"
 	},
 	{
 		"talks": [
@@ -432,7 +418,8 @@
 		"name": "Derek Spaulding",
 		"github": "derekaspaulding",
 		"bio": "I am a software engineer at Code42 in Minneapolis, Minnesota. Day to day I work with a great team to build tools to help keep our customer's data safe. I earned a Bachelor's Degree in Computer Science with a minor in Mathematics from the University of Minnesota in 2017. I have been developing software professionally since 2016.",
-		"gravatar": "https://www.gravatar.com/avatar/8ec8c148e39648980c0e9067f8473edb"
+		"gravatar": "",
+		"photo": "/assets/speakers/derekspaulding.png"
 	},
 	{
 		"talks": [
@@ -445,6 +432,21 @@
 		"twitter": "burnumd",
 		"github": "burnumd",
 		"bio": "He likes games and Transformers",
-		"gravatar": "https://www.gravatar.com/avatar/39e6a7967d489c664f8dc9604c5c278d"
+		"gravatar": "",
+		"photo": "/assets/speakers/francisfernandez.jpg"
+	},
+	{
+		"talks": [
+			{
+				"talkTitle": "Enterprise-ready Automated Semantic Releases",
+				"talkAbstract": "So your organization has a release pipeline for J2EE, .NET, and Ruby, but are you automating releases (including sensible versioning practices) for your Javascript projects? It should be easy enough with semantic-release. But wait, you're using enterprise everything! Github Enterprise, a private artifact repository, and one of those fancy for-pay niche CI solutions. In this session, Francis will walk you through the steps the Enterprise Middleware team at Indiana University took to start releasing Javascript modules and command-line tools with semantic versioning automatically. Enterprise developers and devOps engineers, or anyone with an interest in automatic deployment should come!"
+			}
+		],
+		"name": "Dustin Schau",
+		"twitter": "schaudustin",
+		"github": "dschau",
+		"bio": "(Always) JavaScript Developer. (Sometimes) Speaker. (Sometimes) Traveler. I don’t totally suck",
+		"gravatar": "",
+		"photo": "/assets/speakers/dustinschau.jpg"
 	}
 ]
