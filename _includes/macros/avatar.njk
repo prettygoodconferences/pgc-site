@@ -2,7 +2,7 @@
     {% if speaker.gravatar %}
         {{ gravatar(speaker.gravatar, size) }}
     {% else %}
-        {{ photo(speaker.photo) }}
+        {{ photo(speaker.photo, size) }}
     {% endif %}
 {% endmacro %}
 

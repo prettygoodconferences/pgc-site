@@ -12,7 +12,7 @@ permalink: "speakers/{{pagination.items[0].name | slug}}/index.html"
 <div class="section speaker">
 	{% for speaker in pagination.items %}
 	<div class="cf ph2-ns">
-		<div class="fl w-25 pa2">
+		<div class="fl w100 w-25-ns pa2">
 			{{ avatar.format(speaker, 250) }}
 			<h2 class="speakerName mt4">{{ speaker.name }}</h2>
 
@@ -23,7 +23,7 @@ permalink: "speakers/{{pagination.items[0].name | slug}}/index.html"
 			<a href="https://twitter.com/{{ speaker.twitter }}" class="pa2"><i data-feather="twitter"></i></a>
 			{% endif %}
 		</div>
-		<div class="speaker-details fl w-75 pa2">
+		<div class="speaker-details fl w-100 w-75-ns pa2">
 			{% for talk in speaker.talks %}
 			<h2 class="speaker-talk-title">{{ talk.talkTitle }}</h2>
 			<p class="speaker-talk-description">{{ talk.talkAbstract }}</p>

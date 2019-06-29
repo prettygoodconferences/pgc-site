@@ -248,5 +248,6 @@ a {
 }
 
 .speaker-image {
-  clip-path: circle(50% at center);
+	clip-path: circle(50% at center);
+	width: 200px;
 }
