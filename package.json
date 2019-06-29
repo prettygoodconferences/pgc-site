@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo"
+    "test": "xo",
+    "build": "eleventy",
+    "deploy": "npx surge _site $PGC_SITE"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "xo": "^0.24.0"
+    "@11ty/eleventy": "0.8.2",
+    "surge": "0.20.4",
+    "xo": "0.24.0"
   }
 }
