@@ -77,7 +77,7 @@
 	{
 		"talks": [
 			{
-				"talkTitle": "Building a GraphQL Client in JavaScript",
+				"talkTitle": "Parallel Processing in JS(?!)",
 				"talkAbstract": "For a long time, JavaScript was missing any kind of processing threads. While the single-threaded model added to developer comfort, it also made the platform unable to do serious and time-consuming calculations, and the only way to circumvent it was to do it on a remote server.\n\nLuckily, with the introduction and widespread adoption of Web Workers, we can now do resource-intensive calculations on background threads. A Web Worker allows you to run JavaScript in the background, without affecting the performance of the page. Even if you are running really resource intense code in the browser, you can continue to do whatever you want: clicking, selecting things, etc., while the Web Worker runs in the background.\n\nIn this talk, we will explore:\n\n* Web Workers, how and when you can use them, and their peculiarities.\n* Perf and framerate benefits (with data!)\n* Polyfilling for naughty browsers\n* Future: WebGL, Canvas2D, and other marvels browser vendors are cooking up."
 			},
 			{
@@ -90,7 +90,8 @@
 		"github": "joekarlsson/",
 		"youtube": "https://www.youtube.com/joekarlsson",
 		"bio": "Developer Advocate @MongoDB 🍃. Mpls.",
-		"gravatar": "https://www.gravatar.com/avatar/94138d52371ef2791611f01dd41764f4"
+		"gravatar": "",
+		"photo": "/assets/speakers/joekarlsson.jpg"
 	},
 	{
 		"talks": [
@@ -306,8 +307,8 @@
 				"talkAbstract": "For those of us used to solving problems with software, it can be difficult to branch out to solving problems with technology in the physical world.\n\nHowever, internet connected hardware projects can open up what we build and how people interact with technology in ways that's worth the struggle. In this session, Kristina will go from soldering an LED, connecting it to the internet, and creating a simple web app to monitor sensor data. She'll provide an overview of the different options available and give some pointers for people getting started."
 			},
 			{
-				"talkTitle": "Tracking Errors and Fixing JavaScript at Smartthings with TrackJS",
-				"talkAbstract": "Coming Soon. Kristina is going to do this with Todd"
+				"talkTitle": "Observable Systems at SmartThings with TrackJS",
+				"talkAbstract": "SmartThings is a platform that connects users with multiple\nthird-party applications. Like many modern systems, we depend on\nmany systems we cannot control. By examining client-side errors in\nour configuration editor, we can see who is having problems in- and\nout-side of our platform. \n\n\nUsing TrackJS monitoring tools as the linchpin to tie together\nobservability metrics, SmartThings was able to grow platform\npartnerships by understanding third-party outages, exceptions, and\nmisconfigurations in real-time. Learn how you can combine\nobservability tools, like TrackJS, to build metrics unique to your\nsystem problems."
 			}
 		],
 		"name": "Kristina Durivage",
@@ -336,7 +337,7 @@
 			}
 		],
 		"name": "Caitlin Collins",
-		"bio": "Caitlin is a frontend software engineer at Code42, where she serves at a member of the Accessibility Task Force. In this role, she provides subject matter expertise on accessibility to other web developers and the business as a whole.",
+		"bio": "Caitlin is a frontend software developer at Code42, where she builds interesting things and learns from smart people. She loves well-written error messages, building products that people enjoy using, and finding ways to make development more efficient for teams. She is passionate about user experience and incorporating user advocacy throughout the product development process.",
 		"gravatar": "",
 		"photo": "/assets/speakers/caitlincollins.jpg"
 	},
@@ -384,8 +385,8 @@
 	{
 		"talks": [
 			{
-				"talkTitle": "Tracking Errors and Fixing JavaScript at Smartthings with TrackJS",
-				"talkAbstract": "Coming Soon. Todd is going to do this with Kristina"
+				"talkTitle": "Observable Systems at SmartThings with TrackJS",
+				"talkAbstract": "SmartThings is a platform that connects users with multiple\nthird-party applications. Like many modern systems, we depend on\nmany systems we cannot control. By examining client-side errors in\nour configuration editor, we can see who is having problems in- and\nout-side of our platform. \n\n\nUsing TrackJS monitoring tools as the linchpin to tie together\nobservability metrics, SmartThings was able to grow platform\npartnerships by understanding third-party outages, exceptions, and\nmisconfigurations in real-time. Learn how you can combine\nobservability tools, like TrackJS, to build metrics unique to your\nsystem problems."
 			}
 		],
 		"name": "Todd Gardner",
