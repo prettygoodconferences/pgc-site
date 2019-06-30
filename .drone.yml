@@ -17,9 +17,6 @@ steps:
   volumes:
   - name: cache
     path: /tmp/cache
-  when:
-    event:
-    - pull_request
 
 - name: deploy-dev
   image: node
