@@ -47,7 +47,7 @@ steps:
       from_secret: SURGE_LOGIN
     SURGE_TOKEN:
       from_secret: SURGE_TOKEN
-    PGC_SITE: midwestjs.com
+    PGC_SITE: www.midwestjs.com
   commands:
     - npm run deploy
   volumes:
