@@ -420,5 +420,20 @@
 		"bio": "Francis is a Senior Software Engineer at Indiana University working on the Enterprise Systems Integration Middleware team, responsible for delivering APIs and self-service tools to other developers at the university. His professional interests include React, Node.js, Spring Boot, and containerization. His hobbies include tabletop gaming, aerial fitness, and collecting Transformers. He probably has a game in his bag right now that he'd like to play.",
 		"gravatar": "",
 		"photo": "/assets/speakers/francisfernandez.jpg"
+	},
+	{
+		"talks": [
+			{
+				"talkTitle": "Gatsby + Themes: The Future of Gatsby",
+				"talkAbstract": "Themes ease learning curves and reduce the time to a deployable app. Want to get that great blog written, but don’t want to spend the time creating a bunch of components and UI details? Themes. Themes allow you to focus on what matters: delivering compelling experiences for your end users. Themes have arrived to Gatsby, and this talk will do a deep dive on what they are, how to use them, and the types of amazing content you can create easily with a framework that people love: Gatsby."
+			}
+		],
+		"name": "Dustin Schau",
+		"twitter": "schaudustin",
+		"github": "dschau",
+		"youtube": "",
+		"bio": "Dustin works for an awesome startup Gatsby: an excellent, blazing-fast app generator for React. You can find him regularly working on all things open source and all things JavaScript.",
+		"gravatar": "",
+		"photo": "/assets/speakers/dustinschau.jpg"
 	}
 ]
