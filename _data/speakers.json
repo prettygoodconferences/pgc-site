@@ -420,19 +420,5 @@
 		"bio": "Francis is a Senior Software Engineer at Indiana University working on the Enterprise Systems Integration Middleware team, responsible for delivering APIs and self-service tools to other developers at the university. His professional interests include React, Node.js, Spring Boot, and containerization. His hobbies include tabletop gaming, aerial fitness, and collecting Transformers. He probably has a game in his bag right now that he'd like to play.",
 		"gravatar": "",
 		"photo": "/assets/speakers/francisfernandez.jpg"
-	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Enterprise-ready Automated Semantic Releases",
-				"talkAbstract": "So your organization has a release pipeline for J2EE, .NET, and Ruby, but are you automating releases (including sensible versioning practices) for your Javascript projects? It should be easy enough with semantic-release. But wait, you're using enterprise everything! Github Enterprise, a private artifact repository, and one of those fancy for-pay niche CI solutions. In this session, Francis will walk you through the steps the Enterprise Middleware team at Indiana University took to start releasing Javascript modules and command-line tools with semantic versioning automatically. Enterprise developers and devOps engineers, or anyone with an interest in automatic deployment should come!"
-			}
-		],
-		"name": "Dustin Schau",
-		"twitter": "schaudustin",
-		"github": "dschau",
-		"bio": "(Always) JavaScript Developer. (Sometimes) Speaker. (Sometimes) Traveler. I don’t totally suck",
-		"gravatar": "",
-		"photo": "/assets/speakers/dustinschau.jpg"
 	}
 ]
