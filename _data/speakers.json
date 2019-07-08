@@ -6,12 +6,13 @@
 				"talkAbstract": "Vue is a lightweight, fast and awesome library for building user interfaces. Its learning curve is gentle and its API is not complex to understand. OAuth and OpenID Connect are standards-based protocols for identity and access management in applications. In this presentation, we will take an existing Vue application and implement authentication with OIDC, discover several idiomatic ways to integrate authentication, user profile consumption and conditional formatting with Vue as well as consuming a secure backend with OAuth."
 			}
 		],
-		"name": "Bobby Anderson",
+		"name": "Bobby Johnson",
 		"twitter": "NotMyself",
 		"github": "NotMyself",
 		"youtube": "https://www.youtube.com/channel/UCCvFh9KbO_K1G-KmDs9c94g?view_as=subscriber",
-		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/9984fe00ba317d9c99ca6e0bed8d8ca3"
+		"bio": "Bobby is a full-stack developer, advocate, and evangelist at Auth0. He is a passionate engineer with an interest in learning and teaching new technologies, using open source software, and engaging the greater software development community. His experience ranges from building line-of-business applications for financial professionals with Russell Investments and Milliman to distributed social content apps with Cheezeburger and Steller.",
+		"gravatar": "",
+		"photo": "/assets/speakers/bobbyjohnson.jpg"
 	},
 	{
 		"talks": [
@@ -56,10 +57,6 @@
 	{
 		"talks": [
 			{
-				"talkTitle": "Peer-to-Peer: How About Dat?",
-				"talkAbstract": "Dat is a fairly new peer-to-peer protocol that is used for sharing data between computers. While it was originally designed for sharing large, versioned data sets between peers, it's synchronization capabilities are being applied to variety of other cool applications. \nIn this talk, I will talk about the Dat protocol, and how it works. We'll then explore Beaker Browser, a Dat-enabled browser, where we'll publish a website that's propagated peer-to-peer (it's like Geocities all over again!). Finally, we'll build our own simple application that use the Dat protocol.\n"
-			},
-			{
 				"talkTitle": "Introduction to Svelte",
 				"talkAbstract": "How much JavaScript does it take to build a sleek, modern web app? You install a web framework, a router, a state manager, and a CSS-in-JS library. Before you know it, you have a hefty bundle of JavaScript to send to the browser.\nAnd that's before you write a single line a code! \nSure, all of these libraries and frameworks help us to manage complexity and make amazing apps, but is the cost worth it to our users? What if we could develop an application, without users downloading library features that we don't use?\nSvelte isn't an ordinary component framework; rather, it's a build-time compiler that converts your component source code into efficient, compact JavaScript. If you don't use a particular feature of Svelte, it simply melts away, and your users don't have to download it.\nIn this talk, I will show how to develop a simple Svelte application, and how easy it is to build something is both impressive, but compact.\n"
 			},
@@ -71,7 +68,7 @@
 		"name": "Jeremy Lund",
 		"twitter": "Jeremy_Lund",
 		"github": "lund0n",
-		"bio": "Striving to make development smooth. Front End Architect, Father, Husband, Church of Jesus Christ of Latter-day Saints",
+		"bio": "I work as a Prinicipal Engineer for Instructure. I feel blessed to be doing something that I love and get paid for it. Each day I try to write better code than I did the day before and help someone else to do the same. My work is fueled by Pepsi and the desire to have all of my unit tests come back green.",
 		"gravatar": "https://www.gravatar.com/avatar/b2baa77306a1987fdcfa0c8294a46f5e"
 	},
 	{
@@ -89,7 +86,7 @@
 		"twitter": "joekarlsson1",
 		"github": "joekarlsson/",
 		"youtube": "https://www.youtube.com/joekarlsson",
-		"bio": "Developer Advocate @MongoDB 🍃. Mpls.",
+		"bio": "I am a Developer Advocate at MongoDB, and I hail from the frozen tundra of Minneapolis, Minnesota. I have been primarily a Node and JavaScript engineer, but I also really enjoy the \"math-y\" parts about coding. I've been writing, teaching, and talking about code my entire career. Sharing what little I know about programming is truly the thing I love doing the most. \n\n \n\nI am the co-creator of open source software, including bechdel.io which tells you if a movie script passes the Bechdel Test or not. In my free time, I am usually drinking Gin and Tonics, eating at a new restaurant, or working on an art project (my medium is a 3D printer and an Arduino).",
 		"gravatar": "",
 		"photo": "/assets/speakers/joekarlsson.jpg"
 	},
@@ -103,7 +100,7 @@
 		"name": "Joel Lord",
 		"twitter": "joel__lord",
 		"github": "joellord",
-		"bio": "I make my own GIFs and sometimes post smart stuff. Currently Technical Evangelist at Auth0 (https://auth0.com ). Author at @udemy and @eggheadio",
+		"bio": "I make my own GIFs and sometimes post smart stuff. Currently Developer Advocate at Red Hat OpenShift (https://openshift.com ). Author at @udemy and @eggheadio",
 		"gravatar": "https://www.gravatar.com/avatar/ec1016a9a63da65998b75f35b6ceb3bb"
 	},
 	{
@@ -250,19 +247,6 @@
 	{
 		"talks": [
 			{
-				"talkTitle": "You might not need classes",
-				"talkAbstract": "More than three years later, the introduction of classes to the ECMAScript standard is still a controversial topic. Brought over from popular classical object-oriented languages, they've not only been argued an unnecessary feature for JavaScript, but their usage can become actually harmful very easily. In this talk we'll take a look at the potential issues and pitfalls of using classes, like the need for context binding of methods, and suggest alternative patterns that are conceptually simpler, easier to work with, safer to use, more idiomatic, require less code and are actually more powerful."
-			}
-		],
-		"name": "Ramón Guijarro",
-		"twitter": "soyguijarro",
-		"github": "soyguijarro",
-		"bio": "",
-		"gravatar": "https://www.gravatar.com/avatar/4305ff87f50d8ad9fbd8ef7654bdcf32"
-	},
-	{
-		"talks": [
-			{
 				"talkTitle": "Building a ‘Select All’ React Hook for your Table",
 				"talkAbstract": "The power of React hooks is being able to encapsulate a set of state and side effects together, giving them a name and reusing them. Let’s build a non-trivial but commonly needed unit of functionality for your tables: the infamous ‘Select All’ checkbox at the top of a table with selectable rows."
 			}
@@ -284,8 +268,9 @@
 		"name": "Jake Witcher",
 		"twitter": "codefornerds",
 		"github": "jakewitcher",
-		"bio": "Husband, father, follower of Jesus Christ. Homeschool dad. Self-taught software developer. To-Shin Do student. MMO enthusiast.",
-		"gravatar": "https://www.gravatar.com/avatar/7715f58f1db33dae62b106bcb558bdde"
+		"bio": "Cross disciplinary, immersive learning has been a lifelong passion for Jake Witcher. In June of 2018, at age 36, he wrote his first few lines of JavaScript and 10 months later he began his new career as an Associate Software Developer at Callibrity. While new to software, Jake is no stranger to tinkering with new ideas, crafts, or skillsets and has degrees in both Fine Arts and Religion. He is a writer, a speaker, and a functional programming enthusiast. Jake and his wife live in Cincinnati, OH where they homeschool their two children.",
+		"gravatar": "",
+		"photo": "/assets/speakers/jakewitcher.jpg"
 	},
 	{
 		"talks": [
@@ -432,7 +417,7 @@
 		"name": "Francis Fernandez",
 		"twitter": "burnumd",
 		"github": "burnumd",
-		"bio": "He likes games and Transformers",
+		"bio": "Francis is a Senior Software Engineer at Indiana University working on the Enterprise Systems Integration Middleware team, responsible for delivering APIs and self-service tools to other developers at the university. His professional interests include React, Node.js, Spring Boot, and containerization. His hobbies include tabletop gaming, aerial fitness, and collecting Transformers. He probably has a game in his bag right now that he'd like to play.",
 		"gravatar": "",
 		"photo": "/assets/speakers/francisfernandez.jpg"
 	},
