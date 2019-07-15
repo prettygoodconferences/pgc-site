@@ -204,13 +204,13 @@
 	{
 		"talks": [
 			{
-				"talkTitle": "JavaScript - the weird parts",
-				"talkAbstract": "A guided tour through all of the esoteric JavaScript syntax that makes developers cry and interviewers salivate. Presented as a fun audience-participation quiz, the talk stays light and moves quickly, but will leave attendees with a deep understanding of all the hits: type coercion, hoisting, this, NaN, primitive object wrappers, and more."
+				"talkTitle": "JavaScript - The Weird Parts",
+				"talkAbstract": "When is a number not a number? Are primitives objects or primitives? How exactly does one coerce a type? This talk is a guided tour through all of the esoteric JavaScript that makes developers cry and interviewers salivate. Presented as an audience-participation quiz, the talk stays light and moves quickly, but will leave you with a deep understanding of all the hits: type coercion, hoisting, this, NaN, primitive object wrappers, and more.\n"
 			}
 		],
 		"name": "Zac Delventhal",
 		"github": "delventhalz",
-		"bio": "Engineer, actor, activist, fight choreographer. Loves astrophysics, Node.js, great action scenes, and exhausting political discussions. Terrible at twitter.",
+		"bio": "Full stack developer around town. Passionate advocate for open source software, functional programming, blockchains, JavaScript, and Rust. Will grudgingly write Python upon request.",
 		"gravatar": "",
 		"photo": "/assets/speakers/zacdelventhal.jpg"
 	},
