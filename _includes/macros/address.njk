@@ -3,6 +3,11 @@
 	{{ address.line1 }}<br/>
 	{{ address.line2 }}<br/>
 	{{ address.city }}, {{ address.state }} {{ address.zip }}<br/>
-	<a href="{{ address.website }}" target="new">More Info</a>
+	{% if address.more %}
+		<a href="{{ address.more }}" target="new">More Info</a>
+	{% endif %}
+	{% if address.reservations %}
+		<a href="{{ address.reservations }}" target="new">Reservations</a>
+	{% endif %}
 </address>
 {% endmacro %}

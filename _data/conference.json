@@ -30,7 +30,7 @@
             "city": "Minneapolis",
             "state": "MN",
             "zip": "55403",
-            "website": "https://business.stthomas.edu/opus-advantage/visit-opus/index.html"
+            "more": "https://business.stthomas.edu/opus-advantage/visit-opus/index.html"
         },
         "parking": {
             "line1": "11th & Harmon Ramp",
@@ -38,7 +38,7 @@
             "city": "Minneapolis",
             "state": "MN",
             "zip": "55403",
-            "website": "https://www.mplsparking.com/off-street"
+            "more": "https://www.mplsparking.com/off-street"
         },
         "hotel": {
             "line1": "Doubletree Suites",
@@ -46,7 +46,7 @@
             "city": "Minneapolis",
             "state": "MN",
             "zip": "55403",
-            "website": "https://secure3.hilton.com/en_US/dt/reservation/book.htm?execution=e2s1"
+            "reservations": "https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsecure3.hilton.com%2Fen_US%2Fdt%2Freservation%2Fbook.htm%3FinputModule%3DHOTEL%26ctyhocn%3DMSPLSDT%26spec_plan%3DCDTMJS%26arrival%3D20190807%26departure%3D20190811%26cid%3DOM%2CWW%2CHILTONLINK%2CEN%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=02%7C01%7CCassie.Galovich2%40Hilton.com%7C5172633bf5094bb1275408d70a31dfa8%7C660292d2cfd54a3db7a7e8f7ee458a0a%7C0%7C0%7C636989081623973462&sdata=fKmhvDbWI23tPL%2BKwAheuM5P785BSqOBnvw6T07eUHM%3D&reserved=0"
         }
     },
     "contact": {
