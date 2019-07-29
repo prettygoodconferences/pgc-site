@@ -1,0 +1,18 @@
+{
+    "1": {
+        "floor": "Main",
+        "label": "127"
+    },
+    "2": {
+        "floor": "Main",
+        "label": "Auditorium"
+    },
+    "3": {
+        "floor": "2nd",
+        "label": "235"
+    },
+    "4": {
+        "floor": "2nd",
+        "label": "238"
+    }
+}

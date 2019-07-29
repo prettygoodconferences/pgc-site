@@ -3,9 +3,8 @@
 {% if conference.features.speakers %}
 <div class="section">
 	<h2 class="tc mb4">Speakers</h2>
-	{% if speakers.length > 0 %}
 	<div class="flex flex-wrap">
-		{% for speaker in speakers %}
+		{% for id, speaker in speakers %}
 		<div class="w-50 w-third-ns tc mb4 ph2">
 			<a href="/speakers/{{ speaker.name | slug }}">
 				{{ avatar.format(speaker, 250) }}
@@ -17,8 +16,5 @@
 		</div>
 		{% endfor %}
 	</div>
-	{% else %}
-	<p class="tc">Our speakers list will be published shortly. Check back soon!</p>
-	{% endif %}
 </div>
 {% endif %}

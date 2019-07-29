@@ -4,13 +4,15 @@ title: Speakers
 pagination:
   data: speakers
   size: 1
-permalink: "speakers/{{pagination.items[0].name | slug}}/index.html"
+permalink: "speakers/{{speakers[pagination.items[0]].name | slug}}/index.html"
 ---
 
 {% import 'macros/avatar.njk' as avatar %}
 
+{% set speakerId = pagination.items[0] %}
+{% set speaker = speakers[pagination.items[0]] %}
+
 <div class="section speaker">
-	{% for speaker in pagination.items %}
 	<div class="cf ph2-ns">
 		<div class="fl w100 w-25-ns pa2">
 			{{ avatar.format(speaker, 250) }}
@@ -24,17 +26,17 @@ permalink: "speakers/{{pagination.items[0].name | slug}}/index.html"
 			{% endif %}
 		</div>
 		<div class="speaker-details fl w-100 w-75-ns pa2">
-			{% for talk in speaker.talks %}
-			<h2 class="speaker-talk-title">{{ talk.talkTitle }}</h2>
-			<p class="speaker-talk-description">{{ talk.talkAbstract }}</p>
+			{% for id, talk in talks %}
+				{% if talk.speakerId == speakerId %}
+					<h2 class="speaker-talk-title">{{ talk.talkTitle }}</h2>
+					<p class="speaker-talk-description">{{ talk.talkAbstract }}</p>
+				{% endif %}
 			{% endfor %}
-
 			{% if speaker.bio %}
-			<hr />
-			<h2>About</h2>
-			<div class="speaker-bio">{{ speaker.bio }}</div>
+				<hr />
+				<h2>About</h2>
+				<div class="speaker-bio">{{ speaker.bio }}</div>
 			{% endif %}
 		</div>
-		</div>
-	{% endfor %}
+	</div>
 </div>

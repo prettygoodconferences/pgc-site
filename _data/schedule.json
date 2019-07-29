@@ -1,0 +1,121 @@
+[
+    {
+        "label": "Monday",
+        "scheduleBlocks": [
+            {
+                "time": "8:00AM",
+                "label": "Registration and Breakfast"
+            }, {
+                "time": "8:45AM",
+                "label": "Welcome to Awesome Conference",
+                "description": "Opening announcements and logistics for Awesome Conference."
+            }
+        ]
+    },
+    {
+        "label": "Tuesday",
+        "scheduleBlocks": [
+            {
+                "time": "7:00AM",
+                "label": "Registration and Breakfast"
+            },
+            {
+                "time": "8:00AM",
+                "blocks": [
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 2,
+                        "speakerId": 2,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 3,
+                        "speakerId": 3,
+                        "roomId": 1
+                    }
+                ]
+            },
+            {
+                "time": "9:00AM",
+                "blocks": [
+                    {
+                        "talkId": 4,
+                        "speakerId": 4,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 5,
+                        "speakerId": 5,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    }
+                ]
+            },
+            {
+                "time": "9:45AM",
+                "label": "Snack Time"
+            },
+            {
+                "time": "10:00AM",
+                "blocks": [
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    }
+                ]
+            },
+            {
+                "time": "11:00AM",
+                "blocks": [
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 1,
+                        "speakerId": 1,
+                        "roomId": 1
+                    }
+                ]
+            },
+            {
+                "time": "12:00PM",
+                "label": "Lunch"
+            }
+        ]
+    },
+    {
+        "label": "Wednesday",
+        "scheduleBlocks": [
+            {
+                "time": "7:00AM",
+                "label": "Registration and Breakfast"
+            }
+        ]
+    }
+]
