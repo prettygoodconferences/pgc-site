@@ -1,0 +1,22 @@
+---
+layout: main.njk
+title: Workshops
+---
+
+{% import 'macros/avatar.njk' as avatar %}
+
+<div class="section bg-white">
+    {% for workshop in workshops %}
+    {% set speaker = speakers[workshop.speakerId] %}
+    <div class="flex">
+        <div class="w-25">
+            {{ avatar.format(speaker, 250) }}
+			<h2 class="speakerName mt4">{{ speaker.name }}</h2>
+        </diV>
+        <div class="w-75">
+            <h2>{{workshop.title}}</h2>
+            <p>{{workshop.description}}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div

@@ -2,7 +2,10 @@
 	<p class="fl"><a href="/">{{ conference.name }}</a></p>
 	<ul class="list pa0 mv2 mr2">
 		{% if conference.features.schedule %}
-			<li class="dib ph2"><a href="/schedule" class="no-underline">Event Schedule</a></li>
+			<li class="dib ph2"><a href="/schedule/{{schedule[0].label | slug}}" class="no-underline">Event Schedule</a></li>
+		{% endif %}
+		{% if conference.features.workshops %}
+			<li class="dib ph2"><a href="/workshops" class="no-underline">Workshops</a></li>
 		{% endif %}
 		{% if conference.features.tickets %}
 			<li class="dib ph2"><a href="{{ conference.tickets.url }}" target="_new" class="no-underline">Tickets</a></li>
