@@ -200,9 +200,9 @@
 		"speakerId": 9
 	},
 	"41": {
-		"talkTitle": "MongoDB",
+		"talkTitle": "tbd",
 		"talkAbstract": "tbd",
-		"speakerId": 5
+		"speakerId": null
 	},
 	"42": {
 		"talkTitle": "NodeJS in Serverless Environment",
