@@ -225,5 +225,9 @@
 		"bio": "Dustin works for an awesome startup Gatsby: an excellent, blazing-fast app generator for React. You can find him regularly working on all things open source and all things JavaScript.",
 		"gravatar": "",
 		"photo": "/assets/speakers/dustinschau.jpg"
+	},
+	"31": {
+		"name": "Joe Fong",
+		"gravatar": "https://www.gravatar.com/avatar/048597350e202f5d4b5700505071db79"
 	}
 }

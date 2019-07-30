@@ -183,5 +183,35 @@
 		"talkTitle": "Securing Vue.js with OpenID Connect and OAuth",
 		"talkAbstract": "Vue is a lightweight, fast and awesome library for building user interfaces. Its learning curve is gentle and its API is not complex to understand. OAuth and OpenID Connect are standards-based protocols for identity and access management in applications. In this presentation, we will take an existing Vue application and implement authentication with OIDC, discover several idiomatic ways to integrate authentication, user profile consumption and conditional formatting with Vue as well as consuming a secure backend with OAuth.",
 		"speakerId": 0
+	},
+	"38": {
+		"talkTitle": "The Developers Guide to Promoting Yourself",
+		"talkAbstract": "tbd",
+		"speakerId": 26
+	},
+	"39": {
+		"talkTitle": "Birds of a Feather",
+		"talkAbstract": "tbd",
+		"speakerId": null
+	},
+	"40": {
+		"talkTitle": "Svelte",
+		"talkAbstract": "tbd",
+		"speakerId": 9
+	},
+	"41": {
+		"talkTitle": "MongoDB",
+		"talkAbstract": "tbd",
+		"speakerId": 5
+	},
+	"42": {
+		"talkTitle": "NodeJS in Serverless Environment",
+		"talkAbstract": "tbd",
+		"speakerId": 31
+	},
+	"43": {
+		"talkTitle": "Peer-to-Peer: How About Dat?",
+		"talkAbstract": "tbd",
+		"speakerId": 4
 	}
 }

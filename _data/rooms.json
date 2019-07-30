@@ -1,11 +1,11 @@
 {
     "1": {
         "floor": "Main",
-        "label": "127"
+        "label": "Auditorium"
     },
     "2": {
         "floor": "Main",
-        "label": "Auditorium"
+        "label": "127"
     },
     "3": {
         "floor": "2nd",

@@ -1,120 +1,311 @@
 [
     {
-        "label": "Monday",
+        "label": "Wednesday",
         "scheduleBlocks": [
             {
                 "time": "8:00AM",
                 "label": "Registration and Breakfast"
-            }, {
-                "time": "8:45AM",
-                "label": "Welcome to Awesome Conference",
-                "description": "Opening announcements and logistics for Awesome Conference."
             }
         ]
     },
     {
-        "label": "Tuesday",
+        "label": "Thursday",
         "scheduleBlocks": [
             {
-                "time": "7:00AM",
+                "time": "8:00AM",
                 "label": "Registration and Breakfast"
             },
             {
-                "time": "8:00AM",
+                "time": "9:00AM",
+                "label": "Keynote - The Developer's Guide to Promoting Yourself"
+            },
+            {
+                "time": "10:00AM",
+                "label": "Snack Time"
+            },
+            {
+                "time": "10:30AM",
                 "blocks": [
                     {
-                        "talkId": 1,
-                        "speakerId": 1,
+                        "talkId": 18,
+                        "speakerId": 14,
                         "roomId": 1
                     },
                     {
                         "talkId": 2,
                         "speakerId": 2,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 33,
+                        "speakerId": 27,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 5,
+                        "speakerId": 4,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "11:30AM",
+                "blocks": [
+                    {
+                        "talkId": 12,
+                        "speakerId": 9,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 6,
+                        "speakerId": 5,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 9,
+                        "speakerId": 7,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 39,
+                        "speakerId": null,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "12:30PM",
+                "label": "Lunch"
+            },
+            {
+                "time": "1:30PM",
+                "blocks": [
+                    {
+                        "talkId": 13,
+                        "speakerId": 9,
                         "roomId": 1
                     },
                     {
                         "talkId": 3,
                         "speakerId": 3,
-                        "roomId": 1
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 39,
+                        "speakerId": null,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 24,
+                        "speakerId": 19,
+                        "roomId": 4
                     }
                 ]
+            },
+            {
+                "time": "2:30PM",
+                "blocks": [
+                    {
+                        "talkId": 26,
+                        "speakerId": [20,26],
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 27,
+                        "speakerId": [21,22],
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 16,
+                        "speakerId": 12,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 11,
+                        "speakerId": 8,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "3:30PM",
+                "label": "Snack Time"
+            },
+            {
+                "time": "4:00PM",
+                "blocks": [
+                    {
+                        "talkId": 22,
+                        "speakerId": 17,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 37,
+                        "speakerId": 0,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 8,
+                        "speakerId": 6,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 31,
+                        "speakerId": 25,
+                        "roomId": 4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Friday",
+        "scheduleBlocks": [
+            {
+                "time": "8:00AM",
+                "label": "Breakfast"
             },
             {
                 "time": "9:00AM",
                 "blocks": [
                     {
-                        "talkId": 4,
-                        "speakerId": 4,
+                        "talkId": 1,
+                        "speakerId": 1,
                         "roomId": 1
                     },
                     {
-                        "talkId": 5,
+                        "talkId": 30,
+                        "speakerId": 24,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 39,
+                        "speakerId": null,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 25,
+                        "speakerId": 20,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "10:00AM",
+                "label": "Snack Time"
+            },
+            {
+                "time": "10:30AM",
+                "blocks": [
+                    {
+                        "talkId": 14,
+                        "speakerId": 10,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 40,
+                        "speakerId": 9,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 20,
+                        "speakerId": 16,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 39,
+                        "speakerId": null,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "11:30AM",
+                "blocks": [
+                    {
+                        "talkId": 15,
+                        "speakerId": 11,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 29,
+                        "speakerId": 23,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 41,
+                        "speakerId": 5,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 35,
+                        "speakerId": 29,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "12:30PM",
+                "label": "Lunch"
+            },
+            {
+                "time": "1:30PM",
+                "blocks": [
+                    {
+                        "talkId": 34,
+                        "speakerId": 28,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 42,
+                        "speakerId": 31,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 21,
+                        "speakerId": 16,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 43,
+                        "speakerId": 5,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "2:30PM",
+                "blocks": [
+                    {
+                        "talkId": 7,
                         "speakerId": 5,
                         "roomId": 1
                     },
                     {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
+                        "talkId": 10,
+                        "speakerId": 8,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 23,
+                        "speakerId": 18,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 19,
+                        "speakerId": 15,
+                        "roomId": 4
                     }
                 ]
             },
             {
-                "time": "9:45AM",
+                "time": "3:30PM",
                 "label": "Snack Time"
             },
             {
-                "time": "10:00AM",
-                "blocks": [
-                    {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
-                    },
-                    {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
-                    },
-                    {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
-                    }
-                ]
-            },
-            {
-                "time": "11:00AM",
-                "blocks": [
-                    {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
-                    },
-                    {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
-                    },
-                    {
-                        "talkId": 1,
-                        "speakerId": 1,
-                        "roomId": 1
-                    }
-                ]
-            },
-            {
-                "time": "12:00PM",
-                "label": "Lunch"
-            }
-        ]
-    },
-    {
-        "label": "Wednesday",
-        "scheduleBlocks": [
-            {
-                "time": "7:00AM",
-                "label": "Registration and Breakfast"
+                "time": "4:00PM",
+                "label": "Closing Keynote - tbd"
+
             }
         ]
     }
