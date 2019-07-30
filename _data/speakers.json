@@ -229,5 +229,20 @@
 	"31": {
 		"name": "Joe Fong",
 		"gravatar": "https://www.gravatar.com/avatar/048597350e202f5d4b5700505071db79"
+	},
+	"32": {
+		"name": "Mike Plummer",
+		"twitter": "plummer_mike",
+		"github": "https://www.github.com/mike-plummer",
+		"bio": "",
+		"gravatar": "",
+		"photo": "/assets/speakers/mikeplummer.jpg"
+	},
+	"33": {
+		"name": "Aspen Payton",
+		"twitter": "paytonmn",
+		"github": "https://www.github.com/apaytonmn",
+		"gravatar": "",
+		"photo": "/assets/speakers/aspenpayton.jpg"
 	}
 }

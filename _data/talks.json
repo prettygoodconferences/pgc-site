@@ -186,7 +186,7 @@
 	},
 	"38": {
 		"talkTitle": "The Developers Guide to Promoting Yourself",
-		"talkAbstract": "tbd",
+		"talkAbstract": "A few years ago, I had an idea to make the web better. It was going to be great, and I had the team to build it. Nine months of late nights and lost weekends later, we launched it! The problem: no one cared.\n\nA brilliant project isn't enough. I had to spread my vision, which was difficult for a developer like me. I learned quickly that even the best ideas needed to be sold. I had to build an audience, tell a story, and win over customers. Join me for a developer's guide to marketing. I'll share hard-fought lessons on page design, social networking, advertising, and analytics that will help you bring your ideas to the world.",
 		"speakerId": 26
 	},
 	"39": {
@@ -206,12 +206,52 @@
 	},
 	"42": {
 		"talkTitle": "NodeJS in Serverless Environment",
-		"talkAbstract": "tbd",
+		"talkAbstract": "In NodeJS in Serverless Environment, I will be going over the advantage and disadvantage of using NodeJS in AWS serverless environment, different models of building a serverless application with NodeJS in AWS, and different deployment methods to deploy NodeJS lambda code.",
 		"speakerId": 31
 	},
 	"43": {
 		"talkTitle": "Peer-to-Peer: How About Dat?",
-		"talkAbstract": "tbd",
+		"talkAbstract": "Dat is a fairly new peer-to-peer protocol that is used for sharing data between computers. While it was originally designed for sharing large, versioned data sets between peers, it's synchronization capabilities are being applied to variety of other cool applications. \nIn this talk, I will talk about the Dat protocol, and how it works. We'll then explore Beaker Browser, a Dat-enabled browser, where we'll publish a website that's propagated peer-to-peer (it's like Geocities all over again!). Finally, we'll build our own simple application that use the Dat protocol.",
 		"speakerId": 4
+	},
+	"44": {
+		"talkTitle": "Intro to ReactJS",
+		"talkAbstract": "Learn the basics of ReactJS development in a lecture and hands-on workshop format.\n\nReact, the Javascript framework by Facebook, is one of the most popular options today for building fast, scalable, maintainable user interfaces for web and mobile. This training workshop will expose you to the basic concepts of how React works and how to get started through a comprehensive series of lectures and hands-on workshops. By the end of the day, you will have learned the fundamentals of the framework and implemented a real React application.\n\nTopics:\n\n- Tools and techniques for modern Javascript development\n- Fundamentals of React: components, state, and rendering\n- Routing: how to move the user around your application\n- Forms: how to get input from the user\n- Redux: Overview of global state management (time permitting)\n- Tips and tricks for React development\n- Overview of advanced React topics: high-level descriptions of topics that learners can dig into now that they know the basics\n\nPrerequisites:\n\nAttendees should have a solid understanding of modern Javascript (ES2015) in order to get the most out of this training. (let/const, arrow functions, promises, etc).",
+		"speakerId": 32
+	},
+	"45": {
+		"talkTitle": "Vue Workshop",
+		"talkAbstract": "Vue is a web application framework that competes with\u2028 frameworks such as React and Angular. It is generally viewed as easier to use than Angular. It appeals to developers that dislike the use of JSX in React.\n\nThis workshop covers everything you need to know to get started creating web applications using Vue. Topics covered include:\n\n* using the Vue CLI to bootstrap new applications\n* ESLint and Prettier configuration\n* implementing single file components (SFCs)\n* templates and interpolation\n* styling\n* Vue devtools\n* props, type descriptions, and validators\n* computed props\n* data\n* directives including v-bind, v-on, v-model, and more\n* methods\n* lifecycle methods\n* events\n* watches\n* using JSX\n* slots\n* routing with Vue Router\n* event bus\n* state management with Vuex and vuex-easy\n* unit tests with Jest\n* end-to-end tests with Cypress\n* comparison to React",
+		"speakerId": 9
+	},
+	"46": {
+		"talkTitle": "Up and Running with Angular",
+		"talkAbstract": "If you have ever wanted to code an application with Angular this is your chance. \n\nJoin us for a fun filled day of ramping up on Angular in this hands-on workshop. You will go from 0 to 100 with your Angular knowledge and be able to create our own Angular applications by the end of this workshop. \n\nWe will start with a new project and continue to build up the project until we have a full application at the end of the day. You will have a step by step lab manual that gives you everything you need to be able to be successful in your learning journey.\n\nPrework located at http://digitaldrummerj.me/speaking/#uprunangular",
+		"speakerId": 7
+	},
+	"47": {
+		"talkTitle": "Angular & NgRx",
+		"talkAbstract": "This is a hands-on workshop that teaches participants how to structure an Angular application to use NgRx for state management. When I set out to learn NgRx a year ago, I found a lot of high level discussion of the Redux pattern and a variety of very specific code examples, but struggled to find education that laid out the pattern from beginning to end with fully functional examples.  That is what I intend to provide with this workshop.\n\nWe will begin with a starter project and existing HTML.  We will set up state for the application, walk through creating a basic action and reducer, wire up the action and reducer in our app, and dispatch the action from a component so we can see it working in the app.  From here, we can walk through the pattern again introducing additional complexity by passing a payload into an action and creating an action with an effect.  Participants will end the workshop with a simple, but fully functional, application using NgRx.\n\nI created this talk as a bootcamp for a small group in my work unit.  I used fruit as an example that is relatable to anyone, regardless of their previous work experience.  For example, on the first pass we created a \"banana app\".  The store tracked the state of our banana, and we wrote actions to peel the banana and eat the banana.  We added a more complex action with an effect to jump forward in time to \"rot\" the banana.  It was a fun way to introduce the topic in a humorous and un-intimidating manner.\n\nFull disclosure:  I am scheduled to present this topic in a 2 hour format at ng-conf this spring.  Not sure if there is any conflict across conferences!",
+		"speakerId": 33
+	},
+	"48": {
+		"talkTitle": "Svelte Workshop",
+		"talkAbstract": "In this workshop, we will learn the basics of Svelte 3 by building a simple application. \nFeatures of Svelte that we'll cover include:\n- tags and attributes\n- flow control\n- component data binding\n- Svelte reactivity model\n- stores\n- styles\n- testing\n",
+		"speakerId": 4
+	},
+	"49": {
+		"talkTitle": "Birds of a Feather",
+		"talkAbstract": "tbd",
+		"speakerId": null
+	},
+	"50": {
+		"talkTitle": "Birds of a Feather",
+		"talkAbstract": "tbd",
+		"speakerId": null
+	},
+	"51": {
+		"talkTitle": "Birds of a Feather",
+		"talkAbstract": "tbd",
+		"speakerId": null
 	}
 }

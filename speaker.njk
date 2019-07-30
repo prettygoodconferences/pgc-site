@@ -10,7 +10,7 @@ permalink: "speakers/{{speakers[pagination.items[0]].name | slug}}/index.html"
 {% import 'macros/avatar.njk' as avatar %}
 
 {% set speakerId = pagination.items[0] %}
-{% set speaker = speakers[pagination.items[0]] %}
+{% set speaker = speakers[speakerId] %}
 
 <div class="section speaker">
 	<div class="cf ph2-ns">

@@ -5,7 +5,62 @@
             {
                 "time": "8:00AM",
                 "label": "Registration and Breakfast"
+            },
+            {
+                "time": "9:00AM",
+                "blocks": [
+                    {
+                        "talkId": 44,
+                        "speakerId": 32,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 45,
+                        "speakerId": 9,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 46,
+                        "speakerId": 7,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 47,
+                        "speakerId": 33,
+                        "roomId": 4
+                    }
+                ]
+            },
+            {
+                "time": "12:30PM",
+                "label": "Lunch"
+            },
+            {
+                "time": "1:30PM",
+                "blocks": [
+                    {
+                        "talkId": 44,
+                        "speakerId": 32,
+                        "roomId": 1
+                    },
+                    {
+                        "talkId": 45,
+                        "speakerId": 9,
+                        "roomId": 2
+                    },
+                    {
+                        "talkId": 46,
+                        "speakerId": 7,
+                        "roomId": 3
+                    },
+                    {
+                        "talkId": 48,
+                        "speakerId": 4,
+                        "roomId": 4
+                    }
+                ]
             }
+
         ]
     },
     {
@@ -91,7 +146,7 @@
                         "roomId": 2
                     },
                     {
-                        "talkId": 39,
+                        "talkId": 49,
                         "speakerId": null,
                         "roomId": 3
                     },
@@ -179,7 +234,7 @@
                         "roomId": 2
                     },
                     {
-                        "talkId": 39,
+                        "talkId": 50,
                         "speakerId": null,
                         "roomId": 3
                     },
@@ -213,7 +268,7 @@
                         "roomId": 3
                     },
                     {
-                        "talkId": 39,
+                        "talkId": 51,
                         "speakerId": null,
                         "roomId": 4
                     }
@@ -304,7 +359,7 @@
             },
             {
                 "time": "4:00PM",
-                "label": "Closing Keynote - tbd"
+                "label": "Closing Keynote"
 
             }
         ]

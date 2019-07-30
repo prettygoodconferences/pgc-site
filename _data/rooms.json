@@ -1,18 +1,23 @@
 {
     "1": {
         "floor": "Main",
-        "label": "Auditorium"
+        "label": "Auditorium",
+        "color": "bg-light-blue"
     },
     "2": {
         "floor": "Main",
-        "label": "127"
+        "label": "127",
+        "color": "bg-light-green"
     },
     "3": {
         "floor": "2nd",
-        "label": "235"
+        "label": "235",
+        "color": "bg-light-yellow"
     },
     "4": {
         "floor": "2nd",
-        "label": "238"
+        "label": "238",
+        "color": "bg-light-red"
     }
 }
+

@@ -5,7 +5,8 @@
     "features": {
         "countdown": true,
         "cfp": false,
-        "schedule": false,
+        "schedule": true,
+        "workshops": true,
         "speakers": true,
         "sponsors": false,
         "eventDetails": true,

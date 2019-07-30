@@ -8,7 +8,6 @@ pagination:
 permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 
 ---
-
 <div class="section bg-white">
 	<div class="tc pv4">
 		{% for day in schedule %}
@@ -30,8 +29,8 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 						{% set talk = talks[scheduleBlock.talkId] %}
 						{% set speaker = speakers[talk.speakerId] %}
 						{% set room = rooms[scheduleBlock.roomId] %}
-						<div class="w-100 w-33-ns">
-							<div class="bg-blue ma1 pa3 h4">
+						<div class="w-100 w-100-m w-25-ns">
+							<div class="{{room.color}} ma1 pa3 h4">
 								<div>{{ talk.talkTitle }}</div>
 								<div>{{ speaker.name }}</div>
 								<div>{{ room.label }}</div>
@@ -40,7 +39,7 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 					{% endfor %}
 					</div>
 					{% else %}
-						<div class="bg-green ma1 pa3 tc">
+						<div class="bg-yellow ma1 pa3 tc">
 							{{ scheduleBlock.label }}
 							{{ scheduleBlock.room }}
 						</div>

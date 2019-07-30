@@ -1,0 +1,26 @@
+[
+    {
+        "speakerId": 1,
+        "roomId": 1,
+        "startTime": "",
+        "endTime": "",
+        "title": "React for n00bz",
+        "description": "A workshop for n00bz. You'll learn about React."
+    },
+    {
+        "speakerId": 2,
+        "roomId": 2,
+        "startTime": "",
+        "endTime": "",
+        "title": "React for n00bz",
+        "description": "A workshop for n00bz. You'll learn about React."
+    },
+    {
+        "speakerId": 3,
+        "roomId": 3,
+        "startTime": "",
+        "endTime": "",
+        "title": "React for n00bz",
+        "description": "A workshop for n00bz. You'll learn about React."
+    }
+]
