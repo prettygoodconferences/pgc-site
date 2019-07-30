@@ -5,7 +5,8 @@
     "features": {
         "countdown": true,
         "cfp": false,
-        "schedule": false,
+        "schedule": true,
+        "workshops": true,
         "speakers": true,
         "sponsors": false,
         "eventDetails": true,
@@ -65,31 +66,6 @@
         {
             "name": "Target",
             "logo": "assets/target.svg"
-        }
-    ],
-    "schedule": [
-        {
-            "label": "Monday",
-            "blocks": [
-                {
-                    "time": "8:00AM",
-                    "label": "Registration and Breakfast",
-                    "description": "Registration desk opens at 8:00 in the atrium of Schultz hall. A simple breakfast is provided consisting of pastries, coffee, and orange juice."
-                },
-                {
-                    "time": "8:45AM",
-                    "label": "Welcome to Awesome Conference",
-                    "description": "Opening announcements and logistics for Awesome Conference."
-                }
-            ]
-        },
-        {
-            "label": "Tuesday",
-            "blocks": []
-        },
-        {
-            "label": "Wednesday",
-            "blocks": []
         }
     ],
     "tickets": {

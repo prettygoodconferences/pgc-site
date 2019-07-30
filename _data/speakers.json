@@ -1,11 +1,5 @@
-[
-	{
-		"talks": [
-			{
-				"talkTitle": "Securing Vue.js with OpenID Connect and OAuth",
-				"talkAbstract": "Vue is a lightweight, fast and awesome library for building user interfaces. Its learning curve is gentle and its API is not complex to understand. OAuth and OpenID Connect are standards-based protocols for identity and access management in applications. In this presentation, we will take an existing Vue application and implement authentication with OIDC, discover several idiomatic ways to integrate authentication, user profile consumption and conditional formatting with Vue as well as consuming a secure backend with OAuth."
-			}
-		],
+{
+	"0": {
 		"name": "Bobby Johnson",
 		"twitter": "NotMyself",
 		"github": "NotMyself",
@@ -14,26 +8,14 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/bobbyjohnson.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "JSX is the unsung hero of React",
-				"talkAbstract": "Everybody using React in 2019 knows something about JSX. It's that weird XML-esque syntax that we embed directly into our javascript files. To begin with we hate it, then we learn to put up with it, then one morning the real stockholm syndrome kicks in and we wake knowing the truth: JSX has truly worked its way into our hearts.\n\nAt PayPal, almost every dev team has adopted React in some way. But we've also started to realize that JSX is hugely powerful even when React is out of the picture.\n\nThis talk is a love-letter to JSX. It's about how what started as a simple compile-to-javascript templating language, has transformed how we render user-experiences in a functional way. It's about the weird and wonderful things you can use JSX for. And it's about how JSX has grown in usefulness beyond the role it plays in React."
-			}
-		],
+	"1": {
 		"name": "Daniel Brain",
 		"twitter": "bluepnume",
 		"github": "bluepnume",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/b6b7ccd065d341556898d8942c097ccf"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Reduce, Reuse, Recycle Your Framework Code into Web Components",
-				"talkAbstract": "What if you could take the power of modern JavaScript framework components and export them into generic web components?  Good news!  There are now tools that allow this to happen!  In this session you will learn what web components are, get a view of some of the tools available to export Angular/Vue/React components, and see code examples of mixing exported components within other frameworks and vanilla HTML/JavaScript.\n\nCreating web components from your framework code may have some nice benefits depending on your project.  Some example use cases include:\n* Use existing components in one framework with another framework (use Angular components inside of React or Vue).\n* Provides a piecemeal migration path from an older framework to a new one.  For example, embedding Angular within AngularJS.\n* Embed web components inside of other technologies like a CMS or server side rendering technology.\n\nAlthough some of these tools are relatively new and still under development, it presents an exciting glimpse of what it may be like one day to have a more generic and open web."
-			}
-		],
+	"2": {
 		"name": "David Stanich",
 		"twitter": "dstanich",
 		"github": "dstanich",
@@ -41,47 +23,21 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/davidstanich.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Solving Real-Life Problems with React Suspense",
-				"talkAbstract": "In my talk, I will demonstrate how React Suspense for data fetching works, and how attendees can quickly implement it in order to easily build data fetching states in their projects. We will build an app that fetches data, and loads an image for each piece of data. I will discuss the UX implications of loading states in an application. We will then build react-cache from scratch with 7 lines of code to show attendees how it works, then use that implementation and React Suspense to delay component rendering until our data fetch is complete, and all our images are loaded.\n\nTalk outline\n- Self Introduction (1 minute)\n- Topic Introduction (3-5 minutes)\n    - Demonstrate problem\n    - Discuss what our solution will look like\n    - Briefly discuss React Suspense and react-cache\n    - Show project code starting point\n- Work on implementing the solution (20 minutes)\n    - Wrap Suspense component around data fetching component\n    - Implement react-cache library and demonstrate that delayed rendering now works\n    - Rebuild react-cache step by step\n    - Show new UX problem that occurs with image loading\n    - Implement react-cache in a custom Image component\n    - Demonstrate project solution\n- Conclusion (3-6 minutes)"
-			}
-		],
+	"3": {
 		"name": "Dustin Myers",
 		"twitter": "dustint314",
 		"github": "dustinmyers",
 		"bio": "React Instructor @LambdaSchool. Husband and father. Member LDS church. Just enjoying life. Opinions are mine, but sometimes I don't even agree with myself",
 		"gravatar": "https://www.gravatar.com/avatar/7bf2b2684bd4681010f51eb1b60f7cad"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Introduction to Svelte",
-				"talkAbstract": "How much JavaScript does it take to build a sleek, modern web app? You install a web framework, a router, a state manager, and a CSS-in-JS library. Before you know it, you have a hefty bundle of JavaScript to send to the browser.\nAnd that's before you write a single line a code! \nSure, all of these libraries and frameworks help us to manage complexity and make amazing apps, but is the cost worth it to our users? What if we could develop an application, without users downloading library features that we don't use?\nSvelte isn't an ordinary component framework; rather, it's a build-time compiler that converts your component source code into efficient, compact JavaScript. If you don't use a particular feature of Svelte, it simply melts away, and your users don't have to download it.\nIn this talk, I will show how to develop a simple Svelte application, and how easy it is to build something is both impressive, but compact.\n"
-			},
-			{
-				"talkTitle": "What Can Developers Learn from the Atari 2600?",
-				"talkAbstract": "An Atari 2600 has 128 bytes of RAM.\nOnly 128 bytes.\nNot even enough to buffer a single screen frame.\nThis, in a console designed specifically to play engaging, animated games.\nWhat did developers who wrote games for the Atari 2600 do to work around these resource constraints? And what lessons can we learn from them as we strive to tame the megabytes of data we send to the browser to render a single page? I'll share some history, along with some lessons as we look at how to better work within our own browser's constraints.\n"
-			}
-		],
+	"4": {
 		"name": "Jeremy Lund",
 		"twitter": "Jeremy_Lund",
 		"github": "lund0n",
 		"bio": "I work as a Prinicipal Engineer for Instructure. I feel blessed to be doing something that I love and get paid for it. Each day I try to write better code than I did the day before and help someone else to do the same. My work is fueled by Pepsi and the desire to have all of my unit tests come back green.",
 		"gravatar": "https://www.gravatar.com/avatar/b2baa77306a1987fdcfa0c8294a46f5e"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Parallel Processing in JS(?!)",
-				"talkAbstract": "For a long time, JavaScript was missing any kind of processing threads. While the single-threaded model added to developer comfort, it also made the platform unable to do serious and time-consuming calculations, and the only way to circumvent it was to do it on a remote server.\n\nLuckily, with the introduction and widespread adoption of Web Workers, we can now do resource-intensive calculations on background threads. A Web Worker allows you to run JavaScript in the background, without affecting the performance of the page. Even if you are running really resource intense code in the browser, you can continue to do whatever you want: clicking, selecting things, etc., while the Web Worker runs in the background.\n\nIn this talk, we will explore:\n\n* Web Workers, how and when you can use them, and their peculiarities.\n* Perf and framerate benefits (with data!)\n* Polyfilling for naughty browsers\n* Future: WebGL, Canvas2D, and other marvels browser vendors are cooking up."
-			},
-			{
-				"talkTitle": "Building a GraphQL Client in JavaScript",
-				"talkAbstract": "RESTful APIs have been around for a while now, but they are flawed. Things like non-CRUD operations, response validation, error handling, in-memory state management etc. just get really hard. This talk covers how GraphQL - a standard that unifies server and client communication - comes to save the day, and why the tooling around it is a game-changer.\n\nWe will answer the following questions. What is the philosophy behind GraphQL? How do you architect a scalable schema? How can GraphQL boost productivity? How can you avoid common pitfalls?\n\nWe will then get a GraphQL server up and running together while focusing on exploring real-world patterns for architecting our schema. We will discuss and implement practical steps to improve query performance, error handling and caching. By the end of this talk, you will leave with a working GraphQL server while we explore real-world patterns."
-			}
-		],
+	"5": {
 		"name": "Joe Karlsson",
 		"twitter": "joekarlsson1",
 		"github": "joekarlsson/",
@@ -90,26 +46,14 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/joekarlsson.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "O-What? An Intro to OAuth For Software Developers.",
-				"talkAbstract": "You’ve probably heard of OAuth before. And if you took the time to look into it, there was a bunch of diagrams with arrows pointing in every direction. Add to that a very specific terminology and you get a spec that is barely understandable for a lot of people. The learning curve to OAuth is quite steep and that is part of the reason why a lot of developers don’t bother implementing it. However, understanding the basics will make you life as a developer so much simpler. In this talk, the presenter will try to explain the basic principles of OAuth in simple terms and, hopefully, in a way that is easy to understand for the real software developers that don’t necessarily have a passion for security.\n"
-			}
-		],
+	"6": {
 		"name": "Joel Lord",
 		"twitter": "joel__lord",
 		"github": "joellord",
 		"bio": "I make my own GIFs and sometimes post smart stuff. Currently Developer Advocate at Red Hat OpenShift (https://openshift.com ). Author at @udemy and @eggheadio",
 		"gravatar": "https://www.gravatar.com/avatar/ec1016a9a63da65998b75f35b6ceb3bb"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Angular Unit Testing from the Trenches",
-				"talkAbstract": "For a number of years now we have been hearing about all of the benefits that automated unit testing provides like increasing our quality, catching errors earlier, ensuring that all developers are testing in the same manner and deploying updates with high confidence that nothing will break. Testing a Web UI though was difficult and fragile which meant that typically we had no automated unit test for our Web UI. This is no longer the case with the latest release of Angular. Unit testing is now a first class citizen in Angular. \n\nOut of the box, the project generated by the Angular CLI has unit testing setup with Karma and Jasmine and includes sample tests. Generating new components, services, and pipes includes the unit test Spec file already wired up. Thus allowing you to focus on writing your unit tests and not on the infrastructure needed to get them running. The barriers to writing unit test have been destroyed. \n\nThis talk will walk through getting started unit testing your Angular components, services, and pipes. Along the way I will share the tips and tricks that I have learned as I have implemented unit testing on my Angular projects at a Fortune 100 company. You will walk away ready to immediately implement unit testing on your Angular project."
-			}
-		],
+	"7": {
 		"name": "Justin James",
 		"twitter": "digitaldrummerj",
 		"github": "digitaldrummerj",
@@ -118,139 +62,67 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/justinjames.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Web Performance - Where to start?",
-				"talkAbstract": "As an industry we’ve built thousands of websites, but how many of them perform poorly on a slow connection? Let’s learn the quickest ways to achieve a more performant website without breaking the bank and keep our business partners happy."
-			},
-			{
-				"talkTitle": "Secure by Design",
-				"talkAbstract": "If we as an industry want to stand a chance against modern threats, then our development process needs to change. Security needs to be part of the initial design, and in this session I will walk you through those steps, end to end."
-			}
-		],
+	"8": {
 		"name": "Matt Busche",
 		"twitter": "mrbusche",
 		"github": "mrbusche",
 		"bio": "Programmer, speaker, and runner. Web performance enthusiast. Wheel of Fortune expert. My wife says to say I'm married. @northerniowa alum.",
 		"gravatar": "https://www.gravatar.com/avatar/62a5324990d230f712bd72ee291cac1b"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Get Hooked on React!",
-				"talkAbstract": "Hooks enable implementing stateful React components with functions instead of classes.\n\nThe benefits of using hooks include:\n\n* provides easier ways to work with component state and context\n* removes the need to understand the `this` keyword\n* removes the need to understand what it means to bind a function, and when to do it\n* supports using \"effects\" in place of lifecycle methods which makes it possible to better organize related code such as adding/removing event listeners and opening/closing resources\n* makes it easier to reuse state logic between multiple components than using higher-order components and render props\n* improves ability for tooling to optimize code because it is easier to optimize functions than classes\n\nThis talks covers everything you need to know to get started using hooks in React function components."
-			}
-		],
+	"9": {
 		"name": "Mark Volkmann",
 		"twitter": "mark_volkmann",
 		"github": "mvolkmann",
 		"bio": "Mark is a partner and principal software engineer at Object Computing, Inc. (OCI) in St. Louis, where he provides software engineering and training services. Mark's areas of focus include Java, XML, Web, JavaScript, jQuery, Node.js, and AngularJS application development.",
 		"gravatar": "https://www.gravatar.com/avatar/52a177e9dbd3e614825aabc4e45f8cd6"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Demystifying git",
-				"talkAbstract": "Git is a powerful tool but most of us only learn the basics.  Mastering git allows us to spend less time staring at merge conflicts and more time focusing on real work.  Mastery involves not just knowledge of specific commands but also familiarity with how git can be used to boost your team's performance.\n\nYou'll dig into git itself, learning about branches, merging and (yikes!) rebase, all through the command line.  We’ll cover what to do in the event of a conflict, how to bail out when things go sideways and most importantly how to find that commit you just overwrote.  With those tools under your belt, you'll learn about advanced techniques like bisect, hooks, stash patch adds & cherry-picking.\n\nAfter this talk, git will have changed from a nuisance that regularly ruins your day to a powerful swiss army knife under your command."
-			},
-			{
-				"talkTitle": "Using RxJS for state management",
-				"talkAbstract": "“Asynchronous state management” is a phrase that can strike fear in the heart of even the most jaded programmer.  Tools like Redux and ngrx help us keep our state in check but they don’t handle asynchronous changes well.  How do we deal with events when we don't know when the next update will happen?\n\nThis talk provides an answer: RxJS.  It acts as a wrapper around all of your events, so you can use the same patterns for any event, regardless of source.  RxJS also works seamlessly with every major state management tool, so the skills you learn in one area transfer to the next.  You'll learn about observables, how to upgrade your existing tooling to take advantage of RxJS and why RxJS is the best solution to deal with asynchronous state management."
-			}
-		],
+	"10": {
 		"name": "Randall Koutnik",
 		"twitter": "rkoutnik",
 		"github": "somekittens",
 		"bio": "Technical debt broker and user advocate. Speaker at far too many conferences. Author of Build Reactive Websites with RxJS from Pragmatic Publishing. ",
 		"gravatar": "https://www.gravatar.com/avatar/8f10852a80ca4794f50a304254cb123b"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Building a UI component library: lessons from the trenches",
-				"talkAbstract": "Building a UI component library that is reusable across multiple projects is harder than it sounds.  Share my journey of discovery and frustration, acceptance and pushback, stress and relaxation.  \n\nI am in the process of building a component library for my client.   I'll share with you the things I didn't know; the things I didn't understand, and successes and failures.  And I'll share some \"wins\" I learned that might help you in your next project.  "
-			}
-		],
+	"11": {
 		"name": "Robert Hanson",
 		"github": ".buhtig",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/67f897c7edb6591ceb73f2d905dc1d10"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Passwords Have Failed: 3 Alternatives for Authenticating Users",
-				"talkAbstract": "According to LastPass, their average user has 191 passwords stored in vaults. They also state that 81% of confirmed data breaches are due to passwords. The popular security site Have I Been Pwned lists 6.4 million leaked credentials from over 340 exploited websites. It is clear that managing secure passwords for the average user is to complex. Solutions like LastPass work nicely for the technically literate, but your average baby boomer is in a bad situation. The industry is working to solve this problem with simpler more secure solutions. This talk covers three of the most promising solutions and demonstrates their implementations. I will cover Social Logins, Passwordless, and WebAuthN; discussing their benefits, appropriate contexts and implementation."
-			}
-		],
+	"12": {
 		"name": "Ado Kukic",
 		"bio": "",
 		"gravatar": "",
 		"photo": "/assets/speakers/adokukic.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "A Way Forward, or Adding Typescript Compilation/Webpack to a Monolith",
-				"talkAbstract": "Every project acquires technical debt. Some have the luxury of growing modularly, with great flexibility. Others however, can grow into monoliths if left unchecked. When they do grow into monoliths, how do we safely begin to break the monolith down, or keep it up to date with newer/safer technology?\n\nThis session will discuss the addition of TypeScript/Webpack to an aging build system, how it has helped enable both the roadmap and developers to make better choices for the future of the system. Including:\n\n- Integrating webpack alongside gulp\n- Dealing with (legacy) manual package and path resolution in the short term\n- Setting up separate tsconfigs per client application\n- Maintaining your current versions, configure our test runner for TS tests\n- Making the old build system pick up the transpiled TS\n- How has this enabled developers?\n- Where to next?\n"
-			}
-		],
+	"13": {
 		"name": "Brian Weyer",
 		"github": "brianweyer",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/477bb3fe62f5c882b066ecf66559f6ae"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "JavaScript - The Weird Parts",
-				"talkAbstract": "When is a number not a number? Are primitives objects or primitives? How exactly does one coerce a type? This talk is a guided tour through all of the esoteric JavaScript that makes developers cry and interviewers salivate. Presented as an audience-participation quiz, the talk stays light and moves quickly, but will leave you with a deep understanding of all the hits: type coercion, hoisting, this, NaN, primitive object wrappers, and more.\n"
-			}
-		],
+	"14": {
 		"name": "Zac Delventhal",
 		"github": "delventhalz",
 		"bio": "Full stack developer around town. Passionate advocate for open source software, functional programming, blockchains, JavaScript, and Rust. Will grudgingly write Python upon request.",
 		"gravatar": "",
 		"photo": "/assets/speakers/zacdelventhal.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Components - More than a shinny frenzy",
-				"talkAbstract": "More often than not developers fall into the trap of wanting to use some shinny trend heard in the IT world and that is no different with web components. Do you really understand the design decisions behind the concept of web components? In this talk we’ll take a deep dive into what it is all about.\n\nIn the last few years the term web components have become a main stay in frontend development and web development at large. This popularity as usual tends to come with a huge adoption in the industry albeit without people actually understanding the core concepts behind this new frenzy they’ve encountered. This isn’t limited to juniors alone. The goal of this talk is to give a deep dive into the background behind components, where it came from, how it has evolved and possibly what we might see in the future."
-			}
-		],
+	"15": {
 		"name": "Meya Stephen Kenigbolo",
 		"twitter": "expensivestevie",
 		"github": "kenigbolo",
 		"bio": "Snr Software Engineer • Tech Speaker • FE Engineering Lead and Dev 🥑 @bcasterltd ",
 		"gravatar": "https://www.gravatar.com/avatar/b87e9307d1fb187b116409c06f31ec03"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "More Than Music with WebMIDI",
-				"talkAbstract": "Did you know there’s a widely-supported browser API that allows you to interface with a wide variety of hardware, including some you can build yourself? Wonder no more and meet the WebMIDI API! We’ll look at how MIDI — a niche protocol from 1983 designed for electronic musical instruments to talk to one another — JavaScript and “tiny computers” like the Arduino, Espruino and RasperryPi can be used to build interactive, non-musical experiences that straddle the line between the web and physical world.\n\n\n# For Reviewers\n\nThe theme of this talk is to explore a somewhat obscure browser API intended for interacting with music hardware via JavaScript and how it can be a great way for frontend & JavaScript developers to \"dip their toes\" into hardware programming and IoT concepts. It's really quite a bit of fun and tends to spur attendee's imaginations, based on the feedback I've received. I'm always pleased when someone who saw my talk reaches out to share something interesting they've made!\n\nThe general outline for the talk typically looks like this:\n\n- Brief introduction about me and my talk\n- Brief introduction to Rasperry Pis/C.H.I.P. and other \"tiny\" computers.\n- Brief talk on the evolution of Node along that same timeline.\n- Brief talk about MIDI, what it solved\n- Brief talk about why MIDI and the event-driven nature of Node compliment one another.\n- A look at some of the packages and projects that make MIDI interfacing easy in Node.\n- Why it dovetails nicely with Node and also the Internet of Things\n- Why I chose this stack and decided to talk about it: background in music, interesting use for recycled music equipment.\n- Examples of IoT projects I've made using this tech stack of Tiny Computer, MIDI and JavaScript (#1)\n- Examples of IoT projects I've made using this tech stack of Tiny Computer, MIDI and JavaScript (#2)\n- Examples of IoT projects I've made using this tech stack of Tiny Computer, MIDI and JavaScript (#3)\n- Examples of IoT projects I've made using this tech stack of Tiny Computer, MIDI and JavaScript (#4)\n- Examples of IoT projects I've made using this tech stack of Tiny Computer, MIDI and JavaScript (#5)\n- A breakdown of how I'm using this stack to run my presentation and slideshow\n- How to create your own version of this stack at home: which versions of Linux to use, packages, etc.\n- Hardware recommendations: adapters, interfaces, which you can take apart and which you can leave as is\n- Discuss how this stack makes for a cheap, affordable IoT stack for teaching IoT programming to kids (and in general!)\n- List of ideas for other projects and the future of this stack for creative applications\n- Discussion of things that could or should be improved\n- Other similar tech stacks that blend old and new to explore from here.\n- Lastly, I have a complimentary workshop based on the ideas in this talk that I've led a number of times. It's a little atypical as there's a hardware component I'd have to discuss with the organizers ahead of time, but I've managed to receive discounts and sponsorships from Adafruit on a couple occasions. Happy to discuss if there's interest or it makes me talk more appealing in some way!\n"
-			},
-			{
-				"talkTitle": "JavaScript for Artists",
-				"talkAbstract": "Can JavaScript help you draw a self-portrait? Make a bot that sings to you when you're sad? Generate poetry based on classic literature? Render a painting that draws a composite of every person that's ever looked at them?\n\nModern JavaScript conventions, browser APIs, AI services and IoT hardware provide a unique platform for creating this kind of art. In this talk we'll explore this type of creative, interactive application development and look at the libraries, APIs, services, hardware and approaches to creating expressive works with JavaScript — audio, visual and otherwise."
-			}
-		],
+	"16": {
 		"name": "George Mandis",
 		"twitter": "georgeMandis",
 		"github": "georgemandis/",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/52648880c2f9a3136ab83d399efe129d"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Building a ‘Select All’ React Hook for your Table",
-				"talkAbstract": "The power of React hooks is being able to encapsulate a set of state and side effects together, giving them a name and reusing them. Let’s build a non-trivial but commonly needed unit of functionality for your tables: the infamous ‘Select All’ checkbox at the top of a table with selectable rows."
-			}
-		],
+	"17": {
 		"name": "Jim",
 		"twitter": "jimthedec",
 		"github": "Jimthedev",
@@ -258,13 +130,7 @@
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/a60c3a5780823dd6779972155afb38c1"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "It’s Endomorphin’ Time! Exploring Function Composition in JavaScript",
-				"talkAbstract": "Functional programming is a powerful design pattern for software development and is gaining momentum in the JavaScript community. Whether you are completely new to functional programming or have read introductory material on the subject and have begun to use the basics, you will eventually find yourself asking, “What next?” This session will introduce function composition in JavaScript as a design pattern and as a problem solving tool. You will learn two of the most important tools for composition — curry and compose — discovering what they are and how they can be used to write modular functions. By slowly building on a single code example, this session will demonstrate the common thread of composition in functional programming, from piecing together simple functions to utilizing functors for even greater composability. If you want to dive deeper into functional programming, it’s time to embrace function composition!"
-			}
-		],
+	"18": {
 		"name": "Jake Witcher",
 		"twitter": "codefornerds",
 		"github": "jakewitcher",
@@ -272,67 +138,33 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/jakewitcher.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Zoid - How To Make Secure Web Products",
-				"talkAbstract": "Zoid allows cross-domain messaging, also know as, post messaging. Zoid is built on a framework called post-robot, which allows simple post messaging. Zoid attempts to make this more robust and more simplistic. A core example of the tech in work is PayPal Checkout."
-			}
-		],
+	"19": {
 		"name": "Josh Greenwell",
 		"github": "joshgreenwell",
 		"bio": "",
 		"gravatar": "",
 		"photo": "/assets/speakers/joshgreenwell.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "IoT Hacking for Web Devs",
-				"talkAbstract": "For those of us used to solving problems with software, it can be difficult to branch out to solving problems with technology in the physical world.\n\nHowever, internet connected hardware projects can open up what we build and how people interact with technology in ways that's worth the struggle. In this session, Kristina will go from soldering an LED, connecting it to the internet, and creating a simple web app to monitor sensor data. She'll provide an overview of the different options available and give some pointers for people getting started."
-			},
-			{
-				"talkTitle": "Observable Systems at SmartThings with TrackJS",
-				"talkAbstract": "SmartThings is a platform that connects users with multiple\nthird-party applications. Like many modern systems, we depend on\nmany systems we cannot control. By examining client-side errors in\nour configuration editor, we can see who is having problems in- and\nout-side of our platform. \n\n\nUsing TrackJS monitoring tools as the linchpin to tie together\nobservability metrics, SmartThings was able to grow platform\npartnerships by understanding third-party outages, exceptions, and\nmisconfigurations in real-time. Learn how you can combine\nobservability tools, like TrackJS, to build metrics unique to your\nsystem problems."
-			}
-		],
+	"20": {
 		"name": "Kristina Durivage",
 		"twitter": "gelicia",
 		"github": "gelicia",
 		"bio": "Kristina Durivage is a front end engineer for Smartthings by day, and a hardware hacker by night. She lives in Minneapolis.",
 		"gravatar": "https://www.gravatar.com/avatar/048bf7059316813775dee7504d85a862"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Beyond Code Coverage: User-Centered UI Testing",
-				"talkAbstract": "While you sit admiring your perfect code coverage score, your users are struggling through the bugs in your software. The hours you spend writing and updating unit tests aren’t reflected in the quality of your application. What gives?\n\nIn this talk, we’ll move beyond code coverage, discussing tools and techniques to improve test quality. You’ll learn to write tests the way users interact with your software, thereby maximizing test impact on the quality of your application."
-			}
-		],
+	"21": {
 		"name": "Mike Eastes",
 		"bio": "Mike has 8 years of experience developing software and web applications. His experience spans robust back end server code to polished, user-friendly interfaces. Currently at Code42, he is on the UI development team and is deeply involved in architecting a user interface that is functional and consistent across all of Code42's applications. Mike is a huge React fanboy and is passionate about writing lean, functional, and testable code.",
 		"gravatar": "",
 		"photo": "/assets/speakers/mikeeastes.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Beyond Code Coverage: User-Centered UI Testing",
-				"talkAbstract": "While you sit admiring your perfect code coverage score, your users are struggling through the bugs in your software. The hours you spend writing and updating unit tests aren’t reflected in the quality of your application. What gives?\n\nIn this talk, we’ll move beyond code coverage, discussing tools and techniques to improve test quality. You’ll learn to write tests the way users interact with your software, thereby maximizing test impact on the quality of your application."
-			}
-		],
+	"22": {
 		"name": "Caitlin Collins",
 		"bio": "Caitlin is a frontend software developer at Code42, where she builds interesting things and learns from smart people. She loves well-written error messages, building products that people enjoy using, and finding ways to make development more efficient for teams. She is passionate about user experience and incorporating user advocacy throughout the product development process.",
 		"gravatar": "",
 		"photo": "/assets/speakers/caitlincollins.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Roll-your-own \"Ring\" doorbell for $20 with Pi + Node + AWS",
-				"talkAbstract": "[super draft abstract, don't judge] 'Ring doorbells are super cool, but they cost like $200 on Amazon (say WHAT?!)  Learn how you can use $20 worth of Raspberry Pi components plus a little bit of Node and AWS to roll your own front door cam.  By the end of the session you'll know how to stream video on your home wifi, detect when someone is at your front door, get a text notification with a link to a video recording of your favorite solicitor. "
-			}
-		],
+	"23": {
 		"name": "Michael Jordan",
 		"twitter": "zrealmikejordan",
 		"github": "zRealMikeJordan",
@@ -340,26 +172,14 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/michaeljordan.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Faas and the Serverless",
-				"talkAbstract": "\nDid you ever notice that Fass and Serverless is a lot like the Fast and the Furious series of movies? No, of course not. That would be crazy. Well, I have and it's not as crazy as you might think.\n\nEach of the different characters Dom, Letty, Brian, Tej, Roman, etc. specialize in doing one thing really well and when you combine their abilities as a team they can accomplish just about anything. This is the same as when you have a bunch of well written functions that can be composed into even more powerful functions. \n\nThe characters respond to plot points like when, Spoilers, Dom finds out Letty is alive at the end of Fast 5. This is like events or triggers which call a function or a composition of functions in order to perform a task.\n\nAs well since all of the characters implement a common interface; driving a car; they can be easily deployed anywhere there are roads. Just like well our functions can be deployed to any serverless Faas container."
-			}
-		],
+	"24": {
 		"name": "Simon MacDonald",
 		"twitter": "macdonst",
 		"github": "macdonst",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/b8dadcd56f71bf5e126bd937601f03fd"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Emergent Event Sourcing",
-				"talkAbstract": "Terms like \"event sourcing\" or \"CQRS\" have become so buzzwordified\nthat it has become difficult to distinguish whether these are applicable,\nuseful concepts, or just another thing you put on your resume (you know,\njust like \"TDD\" or \"IoT\").\n\nIn this talk we will take concepts we already broadly use in the front-end, like Redux, Rx, and the Elm architecture, and broaden their scope and applicability to help us understand what the value proposition of \"event sourcing\" really is."
-			}
-		],
+	"25": {
 		"name": "Tanner Engbretson",
 		"twitter": "tengbretson",
 		"github": "tengbretson",
@@ -367,26 +187,14 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/tannerengbretson.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Observable Systems at SmartThings with TrackJS",
-				"talkAbstract": "SmartThings is a platform that connects users with multiple\nthird-party applications. Like many modern systems, we depend on\nmany systems we cannot control. By examining client-side errors in\nour configuration editor, we can see who is having problems in- and\nout-side of our platform. \n\n\nUsing TrackJS monitoring tools as the linchpin to tie together\nobservability metrics, SmartThings was able to grow platform\npartnerships by understanding third-party outages, exceptions, and\nmisconfigurations in real-time. Learn how you can combine\nobservability tools, like TrackJS, to build metrics unique to your\nsystem problems."
-			}
-		],
+	"26": {
 		"name": "Todd Gardner",
 		"twitter": "toddhgardner",
 		"github": "toddhgardner",
 		"bio": "",
 		"gravatar": "https://www.gravatar.com/avatar/2c872fec31c4eb3fcf8229bef0cce42d"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "It’s Coming From Inside The House: An Inside-Out Approach to Nodejs Application Security",
-				"talkAbstract": "Getting application security right often requires that developers have a deeper than average understanding of the security domain. In what other industry is this the case? We don't have to be M.D.s to get a medical diagnosis; we don't have to be auto mechanics to get our cars fixed, yet we in security wag our fingers at \"iD10t errors\" and build grand mousetraps to catch \"so obvious\" developer missteps, when they may not know what they need to add, change or remove from their applications to make it \"secure\" in the first place. Furthermore, patterns to address these issues don't always fit the requirements of the application short or long term, resulting in solutions that only address part of the problem, or worse, are omitted altogether because they are too cumbersome to implement. My answer to this is _spartan–a node application created for developers of node.js applications, not security people. _spartan allows developers to create security policies which address their node app's (whether it be Desktop, Web, Mobile, IoT or API) specific requirements; it installs & configures the modules to match the policy and; it generates the boilerplate code that developers can import directly into their applications."
-			}
-		],
+	"27": {
 		"name": "Yolonda Smith",
 		"twitter": "ysmithnd",
 		"github": "moc.buhtig",
@@ -394,26 +202,14 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/yolondasmith.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Modern React State Management",
-				"talkAbstract": "Approaching state management in modern React applications can be overwhelming. There are many good options available, but which one is right for your particular application? To make that decision, there are many factors to consider and questions to be asked. Should you use a library? If so, which one? Why doesn’t React have this built in? Or does it? This talk will cover the pros and cons of different approaches with examples of potential use cases, allowing you to make informed decisions for you own applications."
-			}
-		],
+	"28": {
 		"name": "Derek Spaulding",
 		"github": "derekaspaulding",
 		"bio": "I am a software engineer at Code42 in Minneapolis, Minnesota. Day to day I work with a great team to build tools to help keep our customer's data safe. I earned a Bachelor's Degree in Computer Science with a minor in Mathematics from the University of Minnesota in 2017. I have been developing software professionally since 2016.",
 		"gravatar": "",
 		"photo": "/assets/speakers/derekspaulding.png"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Enterprise-ready Automated Semantic Releases",
-				"talkAbstract": "So your organization has a release pipeline for J2EE, .NET, and Ruby, but are you automating releases (including sensible versioning practices) for your Javascript projects? It should be easy enough with semantic-release. But wait, you're using enterprise everything! Github Enterprise, a private artifact repository, and one of those fancy for-pay niche CI solutions. In this session, Francis will walk you through the steps the Enterprise Middleware team at Indiana University took to start releasing Javascript modules and command-line tools with semantic versioning automatically. Enterprise developers and devOps engineers, or anyone with an interest in automatic deployment should come!"
-			}
-		],
+	"29": {
 		"name": "Francis Fernandez",
 		"twitter": "burnumd",
 		"github": "burnumd",
@@ -421,13 +217,7 @@
 		"gravatar": "",
 		"photo": "/assets/speakers/francisfernandez.jpg"
 	},
-	{
-		"talks": [
-			{
-				"talkTitle": "Gatsby + Themes: The Future of Gatsby",
-				"talkAbstract": "Themes ease learning curves and reduce the time to a deployable app. Want to get that great blog written, but don’t want to spend the time creating a bunch of components and UI details? Themes. Themes allow you to focus on what matters: delivering compelling experiences for your end users. Themes have arrived to Gatsby, and this talk will do a deep dive on what they are, how to use them, and the types of amazing content you can create easily with a framework that people love: Gatsby."
-			}
-		],
+	"30": {
 		"name": "Dustin Schau",
 		"twitter": "schaudustin",
 		"github": "dschau",
@@ -435,5 +225,24 @@
 		"bio": "Dustin works for an awesome startup Gatsby: an excellent, blazing-fast app generator for React. You can find him regularly working on all things open source and all things JavaScript.",
 		"gravatar": "",
 		"photo": "/assets/speakers/dustinschau.jpg"
+	},
+	"31": {
+		"name": "Joe Fong",
+		"gravatar": "https://www.gravatar.com/avatar/048597350e202f5d4b5700505071db79"
+	},
+	"32": {
+		"name": "Mike Plummer",
+		"twitter": "plummer_mike",
+		"github": "https://www.github.com/mike-plummer",
+		"bio": "",
+		"gravatar": "",
+		"photo": "/assets/speakers/mikeplummer.jpg"
+	},
+	"33": {
+		"name": "Aspen Payton",
+		"twitter": "paytonmn",
+		"github": "https://www.github.com/apaytonmn",
+		"gravatar": "",
+		"photo": "/assets/speakers/aspenpayton.jpg"
 	}
-]
+}

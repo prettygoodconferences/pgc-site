@@ -1,31 +1,52 @@
 ---
 layout: main.njk
 title: Schedule
+pagination:
+  data: schedule
+  alias: day
+  size: 1
+permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
+
 ---
-
 <div class="section bg-white">
-	<h1>Schedule<h1>
-
-
-	<div class="schedule-container">
-		<div class="schedule-day">
-			h2 Wednesday
-			<div class="schedule-block">
-				<div class="schedule-block-time">
-					8:00 AM
+	<div class="tc pv4">
+		{% for day in schedule %}
+			{% set dayUrl = "/schedule/" + day.label | slug + "/" %}
+			<a href="{{dayUrl}}" class=" ph2 {% if pagination.hrefs[pagination.pageNumber] == dayUrl %}active{% endif %}">{{day.label}}</a>
+		{% endfor %}
+	</div>
+	<div>
+		<div class="mb4">
+			{% for scheduleBlock in day.scheduleBlocks %}
+			<div class="flex flex-wrap">
+				<div class="w-100 w-10-ns">
+					<div class="schedule-block-time tr pr4 mt3">{{ scheduleBlock.time }}</div>
 				</div>
-				<div class="schedule-block-label">
-					Registration and Breakfast
+				<div class="w-100 w-90-ns">
+				{% if scheduleBlock.blocks %}
+					<div class="flex flex-wrap">
+					{% for scheduleBlock in scheduleBlock.blocks %}
+						{% set talk = talks[scheduleBlock.talkId] %}
+						{% set speaker = speakers[talk.speakerId] %}
+						{% set room = rooms[scheduleBlock.roomId] %}
+						<div class="w-100 w-100-m w-25-ns">
+							<div class="{{room.color}} ma1 pa3 h4">
+								<div>{{ talk.talkTitle }}</div>
+								<div>{{ speaker.name }}</div>
+								<div>{{ room.label }}</div>
+							</div>
+						</div>
+					{% endfor %}
+					</div>
+					{% else %}
+						<div class="bg-yellow ma1 pa3 tc">
+							{{ scheduleBlock.label }}
+							{{ scheduleBlock.room }}
+						</div>
+					{% endif %}
 				</div>
 			</div>
-			<div class="schedule-block">
-				<div class="schedule-block-time">
-					8:45 AM
-				</div>
-				<div class="schedule-block-label">
-					Welcome to Midwest JS
-				</div>
-			</div>
+			{% endfor %}
 		</div>
 	</div>
-</div>
+</div
