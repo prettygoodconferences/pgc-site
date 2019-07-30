@@ -28,7 +28,8 @@
 		"twitter": "dustint314",
 		"github": "dustinmyers",
 		"bio": "React Instructor @LambdaSchool. Husband and father. Member LDS church. Just enjoying life. Opinions are mine, but sometimes I don't even agree with myself",
-		"gravatar": "https://www.gravatar.com/avatar/7bf2b2684bd4681010f51eb1b60f7cad"
+		"gravatar": "",
+		"photo": "/assets/speakers/dustinmyers.png"
 	},
 	"4": {
 		"name": "Jeremy Lund",

@@ -195,8 +195,8 @@
 		"speakerId": null
 	},
 	"40": {
-		"talkTitle": "Svelte",
-		"talkAbstract": "tbd",
+		"talkTitle": "Simplify Web App Development With Svelte",
+		"talkAbstract": "Svelte is a relatively new tool for building web applications.\nRather than including a runtime library, it compiles to\nbundled JavaScript that is very small compared to other approaches.\nSvelte applications launch quickly because there is less to download.\n\nSvelte components achieve \"reactivity\" without using a virtual DOM.\nState management is greatly simplified.\nImplementing components requires less code than popular web frameworks.\n\nThis talk will explain how to get started using Svelte,\nreview the most important features, and\nwalk through an example app.",
 		"speakerId": 9
 	},
 	"41": {
