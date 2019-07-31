@@ -1,26 +1,22 @@
 [
     {
-        "speakerId": 1,
-        "roomId": 1,
-        "startTime": "",
-        "endTime": "",
-        "title": "React for n00bz",
-        "description": "A workshop for n00bz. You'll learn about React."
+        "talkId": 44,
+        "roomId": 1
     },
     {
-        "speakerId": 2,
-        "roomId": 2,
-        "startTime": "",
-        "endTime": "",
-        "title": "React for n00bz",
-        "description": "A workshop for n00bz. You'll learn about React."
+        "talkId": 9,
+        "roomId": 2
     },
     {
-        "speakerId": 3,
-        "roomId": 3,
-        "startTime": "",
-        "endTime": "",
-        "title": "React for n00bz",
-        "description": "A workshop for n00bz. You'll learn about React."
+        "talkId": 7,
+        "roomId": 3
+    },
+    {
+        "talkId": 33,
+        "roomId": 4
+    },
+    {
+        "talkId": 4,
+        "roomId": 4
     }
 ]

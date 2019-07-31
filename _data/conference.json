@@ -6,7 +6,7 @@
         "countdown": true,
         "cfp": false,
         "schedule": true,
-        "workshops": true,
+        "workshops": false,
         "speakers": true,
         "sponsors": false,
         "eventDetails": true,

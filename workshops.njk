@@ -5,18 +5,20 @@ title: Workshops
 
 {% import 'macros/avatar.njk' as avatar %}
 
-<div class="section bg-white">
+<div class="section bg-white ma">
     {% for workshop in workshops %}
-    {% set speaker = speakers[workshop.speakerId] %}
-    <div class="flex">
-        <div class="w-25">
-            {{ avatar.format(speaker, 250) }}
-			<h2 class="speakerName mt4">{{ speaker.name }}</h2>
-        </diV>
-        <div class="w-75">
-            <h2>{{workshop.title}}</h2>
-            <p>{{workshop.description}}</p>
+        {% set talk = talks[workshop.talkId] %}
+        {% set speaker = speakers[talk.speakerId] %}
+        {% set room = rooms[workshop.roomId] %}
+
+        <div class="flex">
+            <div class="w-75 {{room.color}} pa3 mb4">
+                <h2>{{talk.talkTitle}}</h2>
+                <p class="i">{{speaker.name}}</p>
+                <p>{{talk.talkAbstract}}</p>
+            </div>
         </div>
-    </div>
     {% endfor %}
+
+    {% include "sections/room-key.njk" %}
 </div

@@ -255,3 +255,7 @@ a {
 a.active {
 	text-decoration: underline;
 }
+
+.room-key {
+	width: 100px;
+}
