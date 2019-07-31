@@ -12,7 +12,7 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 	<div class="tc pv4">
 		{% for day in schedule %}
 			{% set dayUrl = "/schedule/" + day.label | slug + "/" %}
-			<a href="{{dayUrl}}" class=" ph2 {% if pagination.hrefs[pagination.pageNumber] == dayUrl %}active{% endif %}">{{day.label}}</a>
+			<a href="{{dayUrl}}" class="f4 ph2 {% if pagination.hrefs[pagination.pageNumber] == dayUrl %}active{% endif %}">{{day.label}}</a>
 		{% endfor %}
 	</div>
 	<div>
@@ -33,7 +33,6 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 							<div class="{{room.color}} ma1 pa3 h4">
 								<div>{{ talk.talkTitle }}</div>
 								<div>{{ speaker.name }}</div>
-								<div>{{ room.label }}</div>
 							</div>
 						</div>
 					{% endfor %}
@@ -41,7 +40,6 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 					{% else %}
 						<div class="bg-yellow ma1 pa3 tc">
 							{{ scheduleBlock.label }}
-							{{ scheduleBlock.room }}
 						</div>
 					{% endif %}
 				</div>
@@ -49,4 +47,5 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 			{% endfor %}
 		</div>
 	</div>
+	{% include "sections/room-key.njk" %}
 </div
