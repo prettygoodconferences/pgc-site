@@ -4,6 +4,7 @@ module.exports = function(eleventyConfig) {
 
   // If you use a subdirectory, it’ll copy using the same directory structure.
 	eleventyConfig.addPassthroughCopy("assets");
+	eleventyConfig.addPassthroughCopy("ROUTER");
 	// eleventyConfig.addPassthroughCopy(".well-known");
 
   return {
