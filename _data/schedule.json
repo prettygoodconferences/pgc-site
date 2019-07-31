@@ -87,8 +87,8 @@
                         "roomId": 1
                     },
                     {
-                        "talkId": 2,
-                        "speakerId": 2,
+                        "talkId": 30,
+                        "speakerId": 24,
                         "roomId": 2
                     },
                     {
@@ -229,8 +229,8 @@
                         "roomId": 1
                     },
                     {
-                        "talkId": 30,
-                        "speakerId": 24,
+                        "talkId": 2,
+                        "speakerId": 2,
                         "roomId": 2
                     },
                     {
