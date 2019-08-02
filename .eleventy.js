@@ -7,6 +7,13 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("ROUTER");
 	// eleventyConfig.addPassthroughCopy(".well-known");
 
+	eleventyConfig.addFilter("toSpeakerNamesList", (ids, speakers) => {
+		return ids
+			.map(id => speakers[id] || '')
+			.map(speaker => speaker.name)
+			.join(", ");
+	});
+
   return {
     passthroughFileCopy: true
   };
