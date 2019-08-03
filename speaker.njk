@@ -27,10 +27,12 @@ permalink: "speakers/{{speakers[pagination.items[0]].name | slug}}/index.html"
 		</div>
 		<div class="speaker-details fl w-100 w-75-ns pa2">
 			{% for id, talk in talks %}
-				{% if talk.speakerId == speakerId %}
-					<h2 class="speaker-talk-title">{{ talk.talkTitle }}</h2>
-					<p class="speaker-talk-description">{{ talk.talkAbstract }}</p>
-				{% endif %}
+				{% for talkSpeakerId in talk.speakerIds %}
+					{% if talkSpeakerId == speakerId %}
+						<h2 class="speaker-talk-title">{{ talk.talkTitle }}</h2>
+						<p class="speaker-talk-description">{{ talk.talkAbstract }}</p>
+					{% endif %}
+				{% endfor %}
 			{% endfor %}
 			{% if speaker.bio %}
 				<hr />
