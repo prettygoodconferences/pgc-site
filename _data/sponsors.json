@@ -1,6 +1,22 @@
 {
-    "items": {
-        "name": "Apple",
-        "logo": "https://via.placeholder.com/300"
+    "0": {
+        "name": "Object Partners",
+        "logo": "/assets/sponsors/objectpartners.jpg"
+    },
+    "2": {
+        "name": "Leepfrog",
+        "logo": "/assets/sponsors/leepfrog.jpg"
+    },
+    "3": {
+        "name": "Nerdery",
+        "logo": "/assets/sponsors/nerdery.jpg"
+    },
+    "4": {
+        "name": "Team Daugherty",
+        "logo": "/assets/sponsors/teamdaugherty.jpg"
+    },
+    "5": {
+        "name": "Target",
+        "logo": "/assets/sponsors/target.jpg"
     }
 }
