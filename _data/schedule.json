@@ -122,8 +122,8 @@
                         "roomId": 3
                     },
                     {
-                        "talkId": 39,
-                        "speakerIds": [],
+                        "talkId": 19,
+                        "speakerIds": [15],
                         "roomId": 4
                     }
                 ]
@@ -288,8 +288,8 @@
                         "roomId": 2
                     },
                     {
-                        "talkId": 41,
-                        "speakerIds": [5],
+                        "talkId": 36,
+                        "speakerIds": [30],
                         "roomId": 3
                     },
                     {
@@ -322,8 +322,8 @@
                         "roomId": 3
                     },
                     {
-                        "talkId": 43,
-                        "speakerIds": [5],
+                        "talkId": 4,
+                        "speakerIds": [4],
                         "roomId": 4
                     }
                 ]
@@ -347,8 +347,8 @@
                         "roomId": 3
                     },
                     {
-                        "talkId": 19,
-                        "speakerIds": [15],
+                        "talkId": 39,
+                        "speakerIds": [],
                         "roomId": 4
                     }
                 ]
