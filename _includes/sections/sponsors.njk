@@ -5,7 +5,7 @@
 	<div class="flex flex-wrap">
 		{% for id, sponsor in sponsors %}
 		<div class="w-100 w-50-l pa5 tc">
-			<img src="{{ sponsor.logo }}" class="sponsorLogo" alt="{{sponsor.name}}"  />
+			<a href="{{ sponsor.link }}" target="_blank"><img src="{{ sponsor.logo }}" class="sponsorLogo" alt="{{sponsor.name}}"  /></a>
 		</div>
 		{% endfor %}
 	</div>
