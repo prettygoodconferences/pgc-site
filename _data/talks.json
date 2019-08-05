@@ -15,8 +15,8 @@
 		"speakerIds": [3]
 	},
 	"4": {
-		"talkTitle": "Introduction to Svelte",
-		"talkAbstract": "How much JavaScript does it take to build a sleek, modern web app? You install a web framework, a router, a state manager, and a CSS-in-JS library. Before you know it, you have a hefty bundle of JavaScript to send to the browser.\nAnd that's before you write a single line a code! \nSure, all of these libraries and frameworks help us to manage complexity and make amazing apps, but is the cost worth it to our users? What if we could develop an application, without users downloading library features that we don't use?\nSvelte isn't an ordinary component framework; rather, it's a build-time compiler that converts your component source code into efficient, compact JavaScript. If you don't use a particular feature of Svelte, it simply melts away, and your users don't have to download it.\nIn this talk, I will show how to develop a simple Svelte application, and how easy it is to build something is both impressive, but compact.\n",
+		"talkTitle": "Harness the Power of ASTs using jscodeshift",
+		"talkAbstract": "ASTs, or abstract syntax trees, are tree-like representations of your code. Once your code is represented as an abstract syntax tree, you can perform all sorts of tasks on it, such as analyzing your code for problems or transforming it. It fact, many tools that you use today, such as Babel, Prettier and ESLint leverage ASTs to perform their work.\nIn this talk, I’ll talk about what ASTs are, and we’ll look at some examples using AST Explorer. Additionally, I’ll show how you can use jscodeshift and recast to automate code changes on your existing code base, including examples that I have done on my own code base. Why take hours performing tedious and error-prone manual changes, when you can automate them in minutes?",
 		"speakerIds": [4]
 	},
 	"5": {
