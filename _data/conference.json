@@ -8,7 +8,7 @@
         "schedule": true,
         "workshops": false,
         "speakers": true,
-        "sponsors": false,
+        "sponsors": true,
         "eventDetails": true,
         "tickets": true,
         "ticketsSoon": false,
@@ -54,20 +54,6 @@
         "name": "Mr. Awesome",
         "email": "support@awesomeconference.io"
     },
-    "sponsors": [
-        {
-            "name": "Object Partners",
-            "logo": "assets/object-partners.svg"
-        },
-        {
-            "name": "SDG",
-            "logo": "assets/sdg.svg"
-        },
-        {
-            "name": "Target",
-            "logo": "assets/target.svg"
-        }
-    ],
     "tickets": {
         "url": "https://ti.to/midwestjs/midwest-js-2019"
     }
