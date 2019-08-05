@@ -209,11 +209,6 @@
 		"talkAbstract": "In NodeJS in Serverless Environment, I will be going over the advantage and disadvantage of using NodeJS in AWS serverless environment, different models of building a serverless application with NodeJS in AWS, and different deployment methods to deploy NodeJS lambda code.",
 		"speakerIds": [31]
 	},
-	"43": {
-		"talkTitle": "Peer-to-Peer: How About Dat?",
-		"talkAbstract": "Dat is a fairly new peer-to-peer protocol that is used for sharing data between computers. While it was originally designed for sharing large, versioned data sets between peers, it's synchronization capabilities are being applied to variety of other cool applications. \nIn this talk, I will talk about the Dat protocol, and how it works. We'll then explore Beaker Browser, a Dat-enabled browser, where we'll publish a website that's propagated peer-to-peer (it's like Geocities all over again!). Finally, we'll build our own simple application that use the Dat protocol.",
-		"speakerIds": [4]
-	},
 	"44": {
 		"talkTitle": "Intro to ReactJS",
 		"talkAbstract": "Learn the basics of ReactJS development in a lecture and hands-on workshop format.\n\nReact, the Javascript framework by Facebook, is one of the most popular options today for building fast, scalable, maintainable user interfaces for web and mobile. This training workshop will expose you to the basic concepts of how React works and how to get started through a comprehensive series of lectures and hands-on workshops. By the end of the day, you will have learned the fundamentals of the framework and implemented a real React application.\n\nTopics:\n\n- Tools and techniques for modern Javascript development\n- Fundamentals of React: components, state, and rendering\n- Routing: how to move the user around your application\n- Forms: how to get input from the user\n- Redux: Overview of global state management (time permitting)\n- Tips and tricks for React development\n- Overview of advanced React topics: high-level descriptions of topics that learners can dig into now that they know the basics\n\nPrerequisites:\n\nAttendees should have a solid understanding of modern Javascript (ES2015) in order to get the most out of this training. (let/const, arrow functions, promises, etc).",
