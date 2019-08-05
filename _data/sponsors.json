@@ -1,22 +1,27 @@
 {
     "0": {
         "name": "Object Partners",
-        "logo": "/assets/sponsors/objectpartners.jpg"
+        "logo": "/assets/sponsors/objectpartners.jpg",
+        "link": "https://objectpartners.com/careers"
     },
     "2": {
         "name": "Leepfrog",
-        "logo": "/assets/sponsors/leepfrog.jpg"
+        "logo": "/assets/sponsors/leepfrog.jpg",
+        "link": "https://www.leepfrog.com/careers"
     },
     "3": {
         "name": "Nerdery",
-        "logo": "/assets/sponsors/nerdery.jpg"
+        "logo": "/assets/sponsors/nerdery.jpg",
+        "link": "https://www.nerdery.com/careers"
     },
     "4": {
         "name": "Team Daugherty",
-        "logo": "/assets/sponsors/teamdaugherty.jpg"
+        "logo": "/assets/sponsors/teamdaugherty.jpg",
+        "link": "https://careers.daugherty.com"
     },
     "5": {
         "name": "Target",
-        "logo": "/assets/sponsors/target.jpg"
+        "logo": "/assets/sponsors/target.jpg",
+        "link": "https://corporate.target.com/careers"
     }
 }
