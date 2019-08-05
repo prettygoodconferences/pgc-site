@@ -210,6 +210,12 @@
                         "roomId": 4
                     }
                 ]
+            },
+            {
+                "time": "5:00PM",
+                "label": "Happy Hour at Object Partners. \n Join us for Happy Hour sponsored by Object Partners. We'll have buses leaving the conference around 5pm. The buses will take attendees over to Object Partners where there will be a fun talk with some prizes, food and drinks, giveaways, games, breakout session space (GraphQL, IoT, and Frameworks), and more!\n There will be buses providing return trips to St. Thomas.\n Those return trips will be approximately 6:45pm, 7:45pm, and 8:45pm.\n You're also welcome to head out to a nearby brewery/cidery/distillery/restaurant (and there are many good ones near Object Partners) but you'll then need to find your own way back.",
+                "roomId": 5,
+                "afterHours": true
             }
         ]
     },
@@ -360,7 +366,6 @@
             {
                 "time": "4:00PM",
                 "label": "Closing Keynote - Hacking your work life __ balance to take over the world. - Jennifer Wadella"
-
             }
         ]
     }

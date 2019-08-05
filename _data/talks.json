@@ -190,8 +190,8 @@
 		"speakerIds": [26]
 	},
 	"39": {
-		"talkTitle": "Birds of a Feather",
-		"talkAbstract": "tbd",
+		"talkTitle": "Birds of a Feather - React",
+		"talkAbstract": "Breakout session to discuss React, React Hooks, React Suspense, and other things React related.",
 		"speakerIds": []
 	},
 	"40": {
@@ -235,18 +235,18 @@
 		"speakerIds": [4]
 	},
 	"49": {
-		"talkTitle": "Birds of a Feather",
-		"talkAbstract": "tbd",
+		"talkTitle": "Birds of a Feather - Testing",
+		"talkAbstract": "Breakout session to discuss unit and/or UI testing.",
 		"speakerIds": []
 	},
 	"50": {
-		"talkTitle": "Birds of a Feather",
-		"talkAbstract": "tbd",
+		"talkTitle": "Birds of a Feather - Node",
+		"talkAbstract": "Breakout session to talk about Node, Express, serverless, event sourcing, or anything else node related.",
 		"speakerIds": []
 	},
 	"51": {
-		"talkTitle": "Birds of a Feather",
-		"talkAbstract": "tbd",
+		"talkTitle": "Birds of a Feather - Git/Tools",
+		"talkAbstract": "Breakout session space to talk about using Git and other tools.",
 		"speakerIds": []
 	},
 	"52": {
