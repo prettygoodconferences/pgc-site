@@ -231,7 +231,7 @@
 	},
 	"48": {
 		"talkTitle": "Svelte Workshop",
-		"talkAbstract": "In this workshop, we will learn the basics of Svelte 3 by building a simple application. \nFeatures of Svelte that we'll cover include:\n- tags and attributes\n- flow control\n- component data binding\n- Svelte reactivity model\n- stores\n- styles\n- testing\n",
+		"talkAbstract": "Description: \nHow much JavaScript does it take to build a sleek, modern web app? You install a web framework, a router, a state manager, and a CSS-in-JS library. Before you know it, you have a hefty bundle of JavaScript to send to the browser. And that's before you write a single line a code!\nSvelte isn't an ordinary component framework; rather, it's a build-time compiler that converts your component source code into efficient, compact JavaScript. If you don't use a particular feature of Svelte, it simply melts away, and your users don't have to download it. Areas of Svelte we'll cover in this three-hour whirlwind includes:\nManaging state and properties, including data stores\n* Reactivity in Svelte\n* Template functions\n* Component testing\n* Composition\n* Styling components\n* Animation and transitions",
 		"speakerIds": [4]
 	},
 	"49": {
