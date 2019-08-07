@@ -127,7 +127,7 @@
 	"26": {
 		"talkTitle": "Observable Systems at SmartThings with TrackJS",
 		"talkAbstract": "SmartThings is a platform that connects users with multiple\nthird-party applications. Like many modern systems, we depend on\nmany systems we cannot control. By examining client-side errors in\nour configuration editor, we can see who is having problems in- and\nout-side of our platform. \n\n\nUsing TrackJS monitoring tools as the linchpin to tie together\nobservability metrics, SmartThings was able to grow platform\npartnerships by understanding third-party outages, exceptions, and\nmisconfigurations in real-time. Learn how you can combine\nobservability tools, like TrackJS, to build metrics unique to your\nsystem problems.",
-		"speakerIds": [20]
+		"speakerIds": [20, 26]
 	},
 	"27": {
 		"talkTitle": "Beyond Code Coverage: User-Centered UI Testing",
