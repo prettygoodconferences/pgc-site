@@ -20,7 +20,7 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 			{% for scheduleBlock in day.scheduleBlocks %}
 			<div class="flex flex-wrap">
 				<div class="w-100 w-10-ns">
-					<div class="schedule-block-time tr pr4 mt3">{{ scheduleBlock.time }}</div>
+					<div class="schedule-block-time tl tr-m ph2 pl0-ns pr4 mt3">{{ scheduleBlock.time }}</div>
 				</div>
 				<div class="w-100 w-90-ns">
 				{% if scheduleBlock.blocks %}
