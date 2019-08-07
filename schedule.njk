@@ -37,8 +37,17 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 					{% endfor %}
 					</div>
 					{% else %}
-						<div class="bg-yellow ma1 pa3 tc">
-							{{ scheduleBlock.label }}
+						{% set room = rooms[scheduleBlock.roomId] %}
+						{% if room %}
+						<div class="{{room.color}} ma1 pa3">
+						{% else %}
+						<div class="bg-yellow ma1 pa3">
+						{% endif %}
+							<div class="tc">{{ scheduleBlock.label }}</div>
+
+							{% if scheduleBlock.description %}
+							<div class="mt2">{{scheduleBlock.description}}</div>
+							{% endif %}
 						</div>
 					{% endif %}
 				</div>
