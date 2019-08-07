@@ -32,11 +32,11 @@
                 ]
             },
             {
-                "time": "12:30PM",
+                "time": "12:00PM",
                 "label": "Lunch"
             },
             {
-                "time": "1:30PM",
+                "time": "1:00PM",
                 "blocks": [
                     {
                         "talkId": 44,
