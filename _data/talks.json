@@ -253,5 +253,10 @@
 		"talkTitle": "Hacking your work life __ balance to take over the world.",
 		"talkAbstract": "Everyone has the same 24 hours in a day, so how do some people seem accomplish so much more? It’s time to learn to hack your work life __ balance to have more time to pursue your passion projects, spend more time with those you love, while keeping your work ethic strong. Let’s take over the world!",
 		"speakerIds": [34]
+	},
+	"53": {
+		"talkTitle": "Hacking JWTs",
+		"talkAbstract": "So you’ve finally implemented your own authorization server. \nAnd it uses JWT because everyone else does. But is it secure? \nJWTs are the new great thing that everyone is talking about but you\nneed to use them correctly.  During this talk, we will see how\nwe can use various attacks to hack into OAuth systems that use JWTs\nas a token mechanism. From token validation to brute forcing HS256,\nby seeing the attackers’ point of view, the attendees will learn\nhow to better defend themselves and make more secure\nservers.",
+		"speakerIds": [6]
 	}
 }
