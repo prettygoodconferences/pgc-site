@@ -30,7 +30,14 @@ permalink: "schedule/{{pagination.items[0].label | slug}}/index.html"
 						{% set room = rooms[scheduleBlock.roomId] %}
 						<div class="w-100 w-100-m w-25-ns">
 							<div class="{{room.color}} ma1 pa3 h4">
-								<div>{{ talk.talkTitle }}</div>
+								{% set firstSpeaker = speakers[talk.speakerIds[0]] %}
+
+								{% if firstSpeaker %}
+								<div><a href="/speakers/{{ firstSpeaker.name | slug }}">{{ talk.talkTitle }}</a></div>
+								{% else %}
+								<div class="ttu b">{{ talk.talkTitle }}</div>
+								{% endif %}
+
 								<div>{{ talk.speakerIds | toSpeakerNamesList(speakers) }}</div>
 							</div>
 						</div>
