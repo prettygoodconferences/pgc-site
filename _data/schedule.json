@@ -325,8 +325,8 @@
                         "roomId": 2
                     },
                     {
-                        "talkId": 51,
-                        "speakerIds": [],
+                        "talkId": 54,
+                        "speakerIds": [34],
                         "roomId": 3
                     },
                     {

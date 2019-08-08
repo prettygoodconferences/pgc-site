@@ -258,5 +258,10 @@
 		"talkTitle": "Hacking JWTs",
 		"talkAbstract": "So you’ve finally implemented your own authorization server. \nAnd it uses JWT because everyone else does. But is it secure? \nJWTs are the new great thing that everyone is talking about but you\nneed to use them correctly.  During this talk, we will see how\nwe can use various attacks to hack into OAuth systems that use JWTs\nas a token mechanism. From token validation to brute forcing HS256,\nby seeing the attackers’ point of view, the attendees will learn\nhow to better defend themselves and make more secure\nservers.",
 		"speakerIds": [6]
+	},
+	"54": {
+		"talkTitle": "Building a Super Performant GossipGirl.com in Gatsby in Under 50 Minutes",
+		"talkAbstract": "Hey, Upper East Siders, Gossip Girl here bringing you the scoop on rapidly building static websites in React. I don’t know about you, but my site is in a major need of an overhaul, so we’re going to rebuild it in under 50 minutes using GatsbyJS. We’ll make SEO look hot and blow some minds with performance testing, do you think can you handle it? I know Lighthouse can. XOXO.",
+		"speakerIds": [34]
 	}
 }
