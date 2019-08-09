@@ -10,7 +10,7 @@
         "speakers": true,
         "sponsors": true,
         "eventDetails": true,
-        "tickets": true,
+        "tickets": false,
         "ticketsSoon": false,
         "mailingList": false
     },
