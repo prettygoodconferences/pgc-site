@@ -2,61 +2,61 @@ kind: pipeline
 name: check
 
 steps:
-- name: setup
-  image: node
-  commands:
-    - npm install
-  volumes:
-  - name: cache
-    path: /tmp/cache
+  - name: setup
+    image: node
+    commands:
+      - npm ci
+    volumes:
+      - name: cache
+        path: /tmp/cache
 
-- name: build
-  image: node
-  commands:
-    - npm run build
-  volumes:
-  - name: cache
-    path: /tmp/cache
+  - name: build
+    image: node
+    commands:
+      - npm run build
+    volumes:
+      - name: cache
+        path: /tmp/cache
 
-- name: deploy-dev
-  image: node
-  environment:
-    SURGE_LOGIN:
-      from_secret: SURGE_LOGIN
-    SURGE_TOKEN:
-      from_secret: SURGE_TOKEN
-    PGC_SITE: dev.midwestjs.com
-  commands:
-    - npm run deploy
-  volumes:
-  - name: cache
-    path: /tmp/cache
-  when:
-    branch:
-    - master
-    event:
-    - push
-    ref:
-      exclude:
-      - refs/tags/release-*
+  - name: deploy-dev
+    image: node
+    environment:
+      SURGE_LOGIN:
+        from_secret: SURGE_LOGIN
+      SURGE_TOKEN:
+        from_secret: SURGE_TOKEN
+      PGC_SITE: dev.midwestjs.com
+    commands:
+      - npm run deploy
+    volumes:
+      - name: cache
+        path: /tmp/cache
+    when:
+      branch:
+        - master
+      event:
+        - push
+      ref:
+        exclude:
+          - refs/tags/release-*
 
-- name: deploy-prod
-  image: node
-  environment:
-    SURGE_LOGIN:
-      from_secret: SURGE_LOGIN
-    SURGE_TOKEN:
-      from_secret: SURGE_TOKEN
-    PGC_SITE: www.midwestjs.com
-  commands:
-    - npm run deploy
-  volumes:
-  - name: cache
-    path: /tmp/cache
-  when:
-    ref:
-    - refs/tags/release-*
+  - name: deploy-prod
+    image: node
+    environment:
+      SURGE_LOGIN:
+        from_secret: SURGE_LOGIN
+      SURGE_TOKEN:
+        from_secret: SURGE_TOKEN
+      PGC_SITE: www.midwestjs.com
+    commands:
+      - npm run deploy
+    volumes:
+      - name: cache
+        path: /tmp/cache
+    when:
+      ref:
+        - refs/tags/release-*
 
 volumes:
-- name: cache
-  temp: {}
+  - name: cache
+    temp: {}

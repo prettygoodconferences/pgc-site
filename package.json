@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo",
+    "lint:c": "prettier -c **/*.js",
+    "lint:f": "prettier --write **/*.js",
     "build": "eleventy",
     "deploy": "npx surge _site $PGC_SITE"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "0.8.2",
-    "surge": "0.20.4",
-    "xo": "0.24.0"
+    "@11ty/eleventy": "0.10.0",
+    "surge": "0.21.3"
+  },
+  "dependencies": {
+    "prettier": "1.19.1"
   }
 }
