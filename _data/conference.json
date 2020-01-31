@@ -1,60 +1,60 @@
 {
-    "name": "Midwest JS",
-    "tagline": "August 7-9  , 2019 in Downtown Minneapolis",
-    "description": "Midwest JS is a 3-day premier technology conference focused on the JavaScript ecosystem.",
-    "features": {
-        "countdown": false,
-        "cfp": false,
-        "schedule": true,
-        "workshops": false,
-        "speakers": true,
-        "sponsors": true,
-        "eventDetails": true,
-        "tickets": false,
-        "ticketsSoon": false,
-        "mailingList": false
+  "name": "Midwest JS",
+  "tagline": "July 22-24, 2019 in Downtown Minneapolis",
+  "description": "Midwest JS is a 3-day premier technology conference focused on the JavaScript ecosystem.",
+  "features": {
+    "countdown": false,
+    "cfp": false,
+    "schedule": false,
+    "workshops": false,
+    "speakers": false,
+    "sponsors": false,
+    "eventDetails": false,
+    "tickets": false,
+    "ticketsSoon": false,
+    "mailingList": false
+  },
+  "links": {
+    "cfp": "https://docs.google.com/forms/d/e/1FAIpQLSfEsRDcAwkmxSgoKJfbz9D0HmykBiSvCWTQjd1s0jtAxr-Hpw/viewform",
+    "twitter": "https://twitter.com/midwest_js",
+    "github": "https://github.com/midwestjs",
+    "slack": "https://join.slack.com/t/midwestjs/shared_invite/enQtNzE5MTcyODc4NjkzLTI5MDIzODJjNWZkMWFkMmIwOTI5OTBhM2NkZDAwMjYyOGI4OGFkNGUwY2YxMjNiNzdhY2RhNTY2OGY3NzUxYmQ",
+    "youtube": "https://www.youtube.com/channel/UCg09l6pJcp2DdCcsSrJmQng"
+  },
+  "gaId": "UA-138252101-1",
+  "startDate": "2019-08-07T09:00:00",
+  "endDate": "2019-08-09T017:00:00",
+  "event": {
+    "venue": {
+      "line1": "University of St Thomas - Schulze Hall",
+      "line2": "46 11th Street South",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip": "55403",
+      "more": "https://business.stthomas.edu/opus-advantage/visit-opus/index.html"
     },
-    "links": {
-        "cfp": "https://docs.google.com/forms/d/e/1FAIpQLSfEsRDcAwkmxSgoKJfbz9D0HmykBiSvCWTQjd1s0jtAxr-Hpw/viewform",
-        "twitter": "https://twitter.com/midwest_js",
-        "github": "https://github.com/midwestjs",
-        "slack": "https://join.slack.com/t/midwestjs/shared_invite/enQtNzE5MTcyODc4NjkzLTI5MDIzODJjNWZkMWFkMmIwOTI5OTBhM2NkZDAwMjYyOGI4OGFkNGUwY2YxMjNiNzdhY2RhNTY2OGY3NzUxYmQ",
-        "youtube": "https://www.youtube.com/channel/UCg09l6pJcp2DdCcsSrJmQng"
+    "parking": {
+      "line1": "11th & Harmon Ramp",
+      "line2": "25 South 11th Street",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip": "55403",
+      "more": "https://www.mplsparking.com/off-street"
     },
-    "gaId": "UA-138252101-1",
-    "startDate": "2019-08-07T09:00:00",
-    "endDate": "2019-08-09T017:00:00",
-    "event": {
-        "venue": {
-            "line1": "University of St Thomas - Schulze Hall",
-            "line2": "46 11th Street South",
-            "city": "Minneapolis",
-            "state": "MN",
-            "zip": "55403",
-            "more": "https://business.stthomas.edu/opus-advantage/visit-opus/index.html"
-        },
-        "parking": {
-            "line1": "11th & Harmon Ramp",
-            "line2": "25 South 11th Street",
-            "city": "Minneapolis",
-            "state": "MN",
-            "zip": "55403",
-            "more": "https://www.mplsparking.com/off-street"
-        },
-        "hotel": {
-            "line1": "Doubletree Suites",
-            "line2": "1101 LaSalle Avenue",
-            "city": "Minneapolis",
-            "state": "MN",
-            "zip": "55403",
-            "reservations": "https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsecure3.hilton.com%2Fen_US%2Fdt%2Freservation%2Fbook.htm%3FinputModule%3DHOTEL%26ctyhocn%3DMSPLSDT%26spec_plan%3DCDTMJS%26arrival%3D20190807%26departure%3D20190811%26cid%3DOM%2CWW%2CHILTONLINK%2CEN%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=02%7C01%7CCassie.Galovich2%40Hilton.com%7C5172633bf5094bb1275408d70a31dfa8%7C660292d2cfd54a3db7a7e8f7ee458a0a%7C0%7C0%7C636989081623973462&sdata=fKmhvDbWI23tPL%2BKwAheuM5P785BSqOBnvw6T07eUHM%3D&reserved=0"
-        }
-    },
-    "contact": {
-        "name": "Mr. Awesome",
-        "email": "support@awesomeconference.io"
-    },
-    "tickets": {
-        "url": "https://ti.to/midwestjs/midwest-js-2019"
+    "hotel": {
+      "line1": "Doubletree Suites",
+      "line2": "1101 LaSalle Avenue",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zip": "55403",
+      "reservations": "https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fsecure3.hilton.com%2Fen_US%2Fdt%2Freservation%2Fbook.htm%3FinputModule%3DHOTEL%26ctyhocn%3DMSPLSDT%26spec_plan%3DCDTMJS%26arrival%3D20190807%26departure%3D20190811%26cid%3DOM%2CWW%2CHILTONLINK%2CEN%2CDirectLink%26fromId%3DHILTONLINKDIRECT&data=02%7C01%7CCassie.Galovich2%40Hilton.com%7C5172633bf5094bb1275408d70a31dfa8%7C660292d2cfd54a3db7a7e8f7ee458a0a%7C0%7C0%7C636989081623973462&sdata=fKmhvDbWI23tPL%2BKwAheuM5P785BSqOBnvw6T07eUHM%3D&reserved=0"
     }
+  },
+  "contact": {
+    "name": "Mr. Awesome",
+    "email": "support@awesomeconference.io"
+  },
+  "tickets": {
+    "url": "https://ti.to/midwestjs/midwest-js-2019"
+  }
 }
