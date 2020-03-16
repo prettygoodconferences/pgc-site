@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   background: url(/assets/gplaypattern.png);
   background-attachment: fixed;
+  font-size: 18px;
 }
 
 h1,
@@ -158,9 +159,12 @@ p {
   color: rgb(24, 24, 24);
 }
 
+.footer a {
+  text-transform: uppercase;
+}
+
 a {
   color: rgb(24, 24, 24);
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -216,6 +220,18 @@ a {
   border: 2px solid #fff;
   color: #fff;
   padding: 0.25em 1.5em;
+}
+
+.notificationAlert {
+  background-color: #b00;
+  text-transform: capitalize;
+}
+
+.notificationAlert a {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
 }
 
 .separatorBar {

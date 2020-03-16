@@ -1,0 +1,5 @@
+{% if conference.features.alert %}
+<div class="section notificationBar notificationAlert">
+	<p>{{ conference.alert.message | safe }}</p>
+</div>
+{% endif %}
