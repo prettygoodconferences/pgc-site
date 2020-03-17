@@ -12,7 +12,8 @@
     "eventDetails": false,
     "tickets": false,
     "ticketsSoon": false,
-    "mailingList": false
+    "mailingList": false,
+    "alert": true
   },
   "links": {
     "cfp": "https://forms.gle/E3ei8NXUXrJVNGKY6",
@@ -24,6 +25,9 @@
   "gaId": "UA-138252101-1",
   "startDate": "2020-07-22T09:00:00",
   "endDate": "2020-07-24T017:00:00",
+  "alert": {
+    "message": "<a href=\"/releases/2020316-covid-19\">Read our statement regarding COVID-19</a>"
+  },
   "event": {
     "venue": {
       "line1": "University of St Thomas - Schulze Hall",
